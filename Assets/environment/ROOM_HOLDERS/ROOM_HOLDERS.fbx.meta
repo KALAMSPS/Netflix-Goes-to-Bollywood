@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: b0dc3108af2a3524b8a95e7c150bdc2e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceo_room.001
+    second: {fileID: 2100000, guid: 579f9e246f5acf64c946b08cd98c8f58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: game_room.001
+    second: {fileID: 2100000, guid: 7cdd1090b3599ca42ab1756681618f88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hr_room.001
+    second: {fileID: 2100000, guid: 4b985507c9fdb9248a42cb577be0264f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: marketing_room.001
+    second: {fileID: 2100000, guid: 105bcc49ee1fc6f40b5d19a06e2632fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: public_policy.001
+    second: {fileID: 2100000, guid: fadf0c0d996d4d041a623e3bebc8b46f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: screen_room.001
+    second: {fileID: 2100000, guid: f8ac3c1f0715bf040b5386abeec262e3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_ceo_room_BaseColor.1001
+    second: {fileID: 2800000, guid: f391a6cbf92248642b690d0198794964, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_ceo_room_Emissive.1001
+    second: {fileID: 2800000, guid: 11a6c9e2f96423d4d813744c7a51e2a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_ceo_room_Metallic.1001
+    second: {fileID: 2800000, guid: 4b394e6fc5dbd7145b2d593ad41fb690, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_ceo_room_Normal.1001
+    second: {fileID: 2800000, guid: 0d28758eab9ef5c41b35d32e4b8925b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_ceo_room_Roughness.1001
+    second: {fileID: 2800000, guid: c168ab2696b94cb4daa29a284509fa44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_game_room_BaseColor.1001
+    second: {fileID: 2800000, guid: 0b6f7d9fdd501474a8e4be5e7575679a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_game_room_Emissive.1001
+    second: {fileID: 2800000, guid: 2e730a61e077c9c40807d4816ebb1fd2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_game_room_Metallic.1001
+    second: {fileID: 2800000, guid: 1c13a44351363f8418bff0b7e00e0f95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_game_room_Normal.1001
+    second: {fileID: 2800000, guid: 8f9e7ce40b0bc7a4ca9a9dc81c054fc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_game_room_Roughness.1001
+    second: {fileID: 2800000, guid: f8e2f9a3aa0c8384ebb19cea5cab8b25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_hr_room_BaseColor.1001
+    second: {fileID: 2800000, guid: bb0442c14b24c8046bc9913a5b8ab5b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_hr_room_Emissive.1001
+    second: {fileID: 2800000, guid: 3ff6744a1a4202d478a6f3136dd2e2a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_hr_room_Metallic.1001
+    second: {fileID: 2800000, guid: d07c93c423b419644b205e20e85bbcda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_hr_room_Normal.1001
+    second: {fileID: 2800000, guid: b6f984a66eb92a74fa2d03589ab0fd9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_hr_room_Roughness.1001
+    second: {fileID: 2800000, guid: ec9452c6d8047014db765760e311798d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_marketing_room_BaseColor.1001
+    second: {fileID: 2800000, guid: 9e0757cdb6db52a42869670277847f02, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_marketing_room_Emissive.1001
+    second: {fileID: 2800000, guid: feae2be6769f15c4b89b504f3f3c8540, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_marketing_room_Metallic.1001
+    second: {fileID: 2800000, guid: 62a17dad25d65a0459163380f94e70c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_marketing_room_Normal.1001
+    second: {fileID: 2800000, guid: 52ef347123648b4458ef72ac65038df4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_marketing_room_Roughness.1001
+    second: {fileID: 2800000, guid: 45196f30b1b9e3642abd52972865027c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_public_policy_BaseColor.1001
+    second: {fileID: 2800000, guid: 5565528329c33904b86c026fd5dbb581, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_public_policy_Emissive.1001
+    second: {fileID: 2800000, guid: f3a1d37fa3550d64d98662e2b43932f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_public_policy_Metallic.1001
+    second: {fileID: 2800000, guid: dfce03dd7dd083c4182dd4d1ecaeaec9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_public_policy_Normal.1001
+    second: {fileID: 2800000, guid: e7892ff885e6e194fbabc4616d960ba5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_public_policy_Roughness.1001
+    second: {fileID: 2800000, guid: 15a5255f63608724291f173b63a20a69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_screen_room_BaseColor.1001
+    second: {fileID: 2800000, guid: 9a9d665a223a0924a8100f96af6562ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_screen_room_Emissive.1001
+    second: {fileID: 2800000, guid: 80cc921b6b324b444ba9fb03a2907457, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_screen_room_Metallic.1001
+    second: {fileID: 2800000, guid: ad66a836f51c11647b9d1f15eb021c28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_screen_room_Normal.1001
+    second: {fileID: 2800000, guid: 7950d827da14808419b744c606a686b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: room_frames_screen_room_Roughness.1001
+    second: {fileID: 2800000, guid: c36184aaba4b7454c9fea00d5bbcce95, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
