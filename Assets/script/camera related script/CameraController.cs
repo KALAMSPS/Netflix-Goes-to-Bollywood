@@ -2,113 +2,134 @@
 
 public class CameraController : MonoBehaviour
 {
-    [Header("Camera Settings")]
-    [Tooltip("Enable to move the camera by holding the right mouse button. Does not work with joysticks.")]
-    public bool clickToMoveCamera = false;
-    [Tooltip("Enable zoom in/out when scrolling the mouse wheel. Does not work with joysticks.")]
-    public bool canZoom = false;
-    [Tooltip("Camera movement sensitivity.")]
-    public float sensitivity = 10f;
-    [Tooltip("Camera Y rotation limits (X: up limit, Y: down limit).")]
-    public Vector2 cameraLimit;
+    [Header("Target")]
+    public Transform player;
 
-    [Header("Alternate Camera Position")]
-    [Tooltip("Alternative camera position when switching view.")]
+    [Header("Follow")]
+    public Vector3 offset = new Vector3(0f, 2f, 0f);
+    public float followSmoothTime = 0.08f;
+
+    [Header("Rotation")]
+    public bool holdRightMouseToRotate = true;
+    public float sensitivity = 200f;
+    public Vector2 pitchLimits = new Vector2(-35f, 70f);
+
+    [Header("Zoom")]
+    public bool allowZoom = true;
+    public float minDistance = 2f;
+    public float maxDistance = 6f;
+    public float zoomSpeed = 2f;
+
+    [Header("Alternate Camera")]
     public Transform alternateCameraPosition;
 
-    private float mouseX;
-    private float mouseY;
-    private float offsetDistanceY;
-    private Transform player;
-    private bool isAlternatePosition = false;
-    private Vector3 originalPosition;
-    private Quaternion originalRotation;
+    private float yaw;
+    private float pitch;
+    private float distance = 4f;
+
+    private Vector3 currentVelocity;
+
+    private bool alternateView;
+
+    private Vector3 storedPos;
+    private Quaternion storedRot;
 
     void Start()
     {
-        canZoom = false;
-        player = GameObject.FindWithTag("Player")?.transform;
         if (player == null)
         {
-            Debug.LogError("Player object not found! Ensure the player has the 'Player' tag.");
-            return;
+            GameObject obj = GameObject.FindGameObjectWithTag("Player");
+
+            if (obj != null)
+                player = obj.transform;
         }
-        offsetDistanceY = transform.position.y;
-        originalPosition = transform.position;
-        originalRotation = transform.rotation;
+
+        Vector3 angles = transform.eulerAngles;
+        yaw = angles.y;
+        pitch = angles.x;
     }
 
-    void Update()
+    void LateUpdate()
     {
+        if (player == null)
+            return;
+
         if (Input.GetKeyDown(KeyCode.V))
-        {
-            SwitchCameraPosition();
-        }
+            ToggleView();
 
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            clickToMoveCamera = !clickToMoveCamera;
-        }
-
-        if (!isAlternatePosition)
-        {
-            FollowPlayer();
-        }
-
-       // HandleZoom();
-        HandleCameraRotation();
-    }
-
-    private void FollowPlayer()
-    {
-        if (player != null)
-        {
-            transform.position = player.position + new Vector3(0, offsetDistanceY, 0);
-            originalPosition = transform.position;
-            originalRotation = transform.rotation;
-        }
-    }
-
-    private void HandleZoom()
-    {
-        if (canZoom && Input.GetAxis("Mouse ScrollWheel") != 0)
-        {
-            Camera.main.fieldOfView -= Input.GetAxis("Mouse ScrollWheel") * sensitivity * 2;
-        }
-    }
-
-    private void HandleCameraRotation()
-    {
-        if (clickToMoveCamera && !Input.GetMouseButton(1))
-        {
+        if (alternateView)
             return;
-        }
 
-        mouseX += Input.GetAxis("Mouse X") * sensitivity;
-        mouseY = Mathf.Clamp(mouseY + Input.GetAxis("Mouse Y") * sensitivity, cameraLimit.x, cameraLimit.y);
-        transform.rotation = Quaternion.Euler(-mouseY, mouseX, 0);
+        RotateCamera();
+        ZoomCamera();
+        FollowCamera();
     }
 
-    private void SwitchCameraPosition()
+    void RotateCamera()
+    {
+        if (holdRightMouseToRotate && !Input.GetMouseButton(1))
+            return;
+
+        yaw += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+
+        pitch -= Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
+        pitch = Mathf.Clamp(pitch, pitchLimits.x, pitchLimits.y);
+    }
+
+    void ZoomCamera()
+    {
+        if (!allowZoom)
+            return;
+
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+
+        if (Mathf.Abs(scroll) > 0.01f)
+        {
+            distance -= scroll * zoomSpeed;
+            distance = Mathf.Clamp(distance, minDistance, maxDistance);
+        }
+    }
+
+    void FollowCamera()
+    {
+        Quaternion rotation = Quaternion.Euler(pitch, yaw, 0);
+
+        Vector3 targetPosition =
+            player.position +
+            offset -
+            rotation * Vector3.forward * distance;
+
+        transform.position = Vector3.SmoothDamp(
+            transform.position,
+            targetPosition,
+            ref currentVelocity,
+            followSmoothTime);
+
+        transform.rotation = Quaternion.Slerp(
+            transform.rotation,
+            rotation,
+            15f * Time.deltaTime);
+    }
+
+    void ToggleView()
     {
         if (alternateCameraPosition == null)
-        {
-            Debug.LogWarning("Alternate camera position is not set!");
             return;
-        }
 
-        if (isAlternatePosition)
+        if (!alternateView)
         {
-            transform.position = originalPosition;
-            transform.rotation = originalRotation;
-        }
-        else
-        {
-            originalPosition = transform.position;
-            originalRotation = transform.rotation;
+            storedPos = transform.position;
+            storedRot = transform.rotation;
+
             transform.position = alternateCameraPosition.position;
             transform.rotation = alternateCameraPosition.rotation;
         }
-        isAlternatePosition = !isAlternatePosition;
+        else
+        {
+            transform.position = storedPos;
+            transform.rotation = storedRot;
+        }
+
+        alternateView = !alternateView;
     }
 }
