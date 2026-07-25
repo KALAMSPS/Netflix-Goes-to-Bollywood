@@ -2,9 +2,8 @@
 using UnityEngine;
 public class ThirdPersonController : MonoBehaviour
 {
-
     [Tooltip("Speed ​​at which the character moves. It is not affected by gravity or jumping.")]
-    public float velocity = 5f;
+    public float velocity ;
     [Tooltip("This value is added to the speed value while the character is sprinting.")]
     public float sprintAdittion = 3.5f;
     [Tooltip("The higher the value, the higher the character will jump.")]
@@ -14,9 +13,7 @@ public class ThirdPersonController : MonoBehaviour
     [Space]
     [Tooltip("Force that pulls the player down. Changing this value causes all movement, jumping and falling to be changed as well.")]
     public float gravity = 9.8f;
-
     float jumpElapsedTime = 0;
-
     // Player states
     bool isJumping = false;
     bool isSprinting = false;
@@ -62,8 +59,8 @@ public class ThirdPersonController : MonoBehaviour
         // Unfortunately GetAxis does not work with GetKeyDown, so inputs must be taken individually
         inputCrouch = Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.JoystickButton1);
 
-       
-        if ( cc.isGrounded && animator != null )
+
+        if (cc.isGrounded && animator != null)
         {
 
             // Crouch
@@ -72,11 +69,24 @@ public class ThirdPersonController : MonoBehaviour
 
             //// Run
             float minimumSpeed = 0.9f;
-            animator.SetBool("run", cc.velocity.magnitude > minimumSpeed );
+            animator.SetBool("run", cc.velocity.magnitude > minimumSpeed);
             // Walk / Idle transition
             bool isMoving = Mathf.Abs(inputHorizontal) > 0.1f || Mathf.Abs(inputVertical) > 0.1f;
             animator.SetBool("run", isMoving);
+            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
 
+            if (stateInfo.IsName("Idle"))
+            {
+                Debug.Log("Current State: Idle");
+            }
+            else if (stateInfo.IsName("Run"))
+            {
+                Debug.Log("Current State: Run");
+            }
+            else if (stateInfo.IsName("Walk"))
+            {
+                Debug.Log("Current State: Walk");
+            }
             // Sprint
             //isSprinting = cc.velocity.magnitude > minimumSpeed && inputSprint;
             //animator.SetBool("sprint", isSprinting );
@@ -84,9 +94,9 @@ public class ThirdPersonController : MonoBehaviour
         }
 
         // Jump animation
-        if ( animator != null )
-            animator.SetBool("air", cc.isGrounded == false );
-        if ( inputJump && cc.isGrounded )
+        if (animator != null)
+            animator.SetBool("air", cc.isGrounded == false);
+        if (inputJump && cc.isGrounded)
         {
             isJumping = true;
             // Disable crounching when jumping
