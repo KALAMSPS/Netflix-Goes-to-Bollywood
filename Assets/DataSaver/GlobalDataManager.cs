@@ -31,22 +31,22 @@ public class GlobalDataManager : MonoBehaviour
     }
 
     // Increment methods
-    public void AddRevenue(int amount)
+    public void AddSGI(int amount)
     {
-        globalData.revenue += amount;
-        UIManager.instance.UpdateRevenueUI(globalData.revenue);
+        globalData.SGI += amount;
+        UIManager.instance.UpdateSGIUI(globalData.SGI);
     }
 
-    public void AddDemand(int amount)
+    public void AddFHI(int amount)
     {
-        globalData.demand += amount;
-        UIManager.instance.UpdateDemandUI(globalData.demand);
+        globalData.FHI += amount;
+        UIManager.instance.UpdateFHIUI(globalData.FHI);
     }
 
-    public void AddRetailer(int amount)
+    public void AddCGI(int amount)
     {
-        globalData.retailer += amount;
-        UIManager.instance.UpdateRetailerUI(globalData.retailer);
+        globalData.CGI += amount;
+        UIManager.instance.UpdateCGIUI(globalData.CGI);
     }
 
     // New Set Methods
@@ -117,15 +117,15 @@ public class GlobalDataManager : MonoBehaviour
     // RESET JSON SAVED FILE
     public void ResetData()
     {
-        globalData.revenue = 0;
-        globalData.demand = 0;
-        globalData.retailer = 0;
+        globalData.SGI = 0;
+        globalData.FHI = 0;
+        globalData.CGI = 0;
         globalData.currentDateTime = "";
         globalData.totalWeeks = 1;
         SaveData();
-        UIManager.instance.UpdateRevenueUI(0);
-        UIManager.instance.UpdateDemandUI(0);
-        UIManager.instance.UpdateRetailerUI(0);
+        UIManager.instance.UpdateSGIUI(0);
+        UIManager.instance.UpdateFHIUI(0);
+        UIManager.instance.UpdateCGIUI(0);
     }
 
 
@@ -140,9 +140,9 @@ public class GlobalDataManager : MonoBehaviour
 [System.Serializable]
 public class GlobalGameData
 {
-    public int revenue;
-    public int demand;
-    public int retailer;
+    public int SGI;
+    public int FHI;
+    public int CGI;
     public string playerName;
     public string password;
     public string currentDateTime;

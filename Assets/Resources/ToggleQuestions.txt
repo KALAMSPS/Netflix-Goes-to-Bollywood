@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "question": "Select the documents essential for onboarding.",
+    "options": [
+      "Graduation Marksheets",
+      "Previous employer leave letter",
+      "Bank statement",
+      "Utility bill",
+      "Health certificate"
+    ],
+    "correctIndices": [0, 1, 2],
+    "impact": {
+      "revenue": 50,
+      "demand": 40,
+      "reputation": 70
+    }
+  },
+  {
+    "id": 2,
+    "question": "Which of these are recyclable?",
+    "options": [
+      "Glass bottles",
+      "Plastic bags",
+      "Food waste",
+      "Aluminum cans",
+      "Old newspapers"
+    ],
+    "correctIndices": [0, 3, 4],
+    "impact": {
+      "revenue": 30,
+      "demand": 20,
+      "reputation": 50
+    }
+  }
+]

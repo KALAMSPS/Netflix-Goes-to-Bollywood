@@ -1,0 +1,1113 @@
+[
+    {
+        "id": 1,
+        "question": "Removing late fees and offering unlimited rentals for a flat fee is best described as: ",
+        "options": [
+            "Price discrimination",
+            "Business-model innovation / switching-cost reduction ",
+            "Loss leadership",
+            "Vertical integration"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "What do you know about how Adobe manages performance without traditional appraisals?",
+        "options": [
+            "A.Adobe follows a 360-degree peer review system once a year to finalize promotions and bonuses.",
+            "B.Adobe uses a flexible 'Check-In' system that emphasizes ongoing conversations between managers and employees.",
+            "C.Managers conduct surprise assessments to keep employees on their toes and ensure peak performance."
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 4,
+                "FHI": 4,
+                "CBI": 2
+            },
+            {
+                "SGI": 1,
+                "FHI": 2,
+                "CBI": 7
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Which of the following is a common disadvantage of traditional annual performance appraisals?",
+        "options": [
+            "A.They promote continuous feedback and development",
+            "B.They encourage real-time recognition of achievements",
+            "C. They often provide outdated or irrelevant feedback",
+            "D. They eliminate the need for documentation"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 4,
+                "FHI": 4,
+                "CBI": 2
+            },
+            {
+                "SGI": 3,
+                "FHI": 4,
+                "CBI": 3
+            },
+            {
+                "SGI": 2,
+                "FHI": 2,
+                "CBI": 6
+            },
+            {
+                "SGI": 2,
+                "FHI": 2,
+                "CBI": 6
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "What is the primary purpose of a performance appraisal system in any organization?",
+        "options": [
+            "A. To maintain strict surveillance over employees",
+            "B. To create competition between departments",
+            "C. To evaluate employee contributions and support growth",
+            "D. To rank employees purely for layoffs"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 2,
+                "FHI": 2,
+                "CBI": 6
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Which best explains a major criticism of stack ranking, where employees are forced into top, average, and low performer categories?",
+        "options": [
+            "A. It promotes excessive\n collaboration at the cost of\n individual CBI",
+            "B. It can demotivate employees by\n creating internal competition and\n discouraging teamwork",
+            "C. It relies entirely on self \nassessments without managerial\n input",
+            "D. It is only effective in flat\n organizational structures with no\n hierarchy"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 2,
+                "FHI": 2,
+                "CBI": 6
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "We at Adobe moved away from stack ranking. What could have\n been the possible reasons?",
+        "options": [
+            "A.Because it led to unfair pay \npractices and favoritism",
+            "B.Because it created unnecessary competition and stress among\n employees",
+            "C.Because it was too time-consuming\n for HR and managers",
+            "D.Because employees were not\n meeting performance expectations under that system"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 2,
+                "FHI": 2,
+                "CBI": 6
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "One key element of Check-Ins is that they focus on ___________.",
+        "options": [
+            "A. Assigning numeric scores to employees",
+            "B. Filling standardized HR forms to\n track compliance",
+            "C. Having open conversations about goals, growth, and feedback",
+            "D. Discussing bonuses and salary adjustments in detail"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Why is goal co-creation effective in performance systems?",
+        "options": [
+            "A. Builds ownership and motivation",
+            "B. Avoids top-down control",
+            "C. Skips formal reviews",
+            "D. Focuses on market benchmarks"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Which of the following can be inferred from this conversation?",
+        "options": [
+            "A. Adobe Creative Cloud is limited\n to only desktop users.",
+            "B. The Touch Apps component\n allows tablet users to create\n content.",
+            "C. Adobe's Business Catalyst is part\n of the Community feature.",
+            "D. Adobe removed collaborative\n tools from the subscription model."
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "84% of employees feel empowered under the Check-In system of goal setting",
+        "options": [
+            "A. Empowerment linked to goal-setting",
+            "B. Employees need appraisal tool training",
+            "C. Reintroduce formal annual\n reviews",
+            "D. Empowerment tied to monetary rewards"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+    ,
+    {
+        "id": 11,
+        "question": "71% employees: regular Check-Ins improved FHI with team goals.",
+        "options": [
+            "A. Frequent feedback improves strategic FHI ",
+            "B. Employees undervalue formal\n goal cycles",
+            "C. FHI gaps stem from weak bonuses",
+            "D. Team FHI needs quarterly reviews"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+    ,
+    {
+        "id": 12,
+        "question": "Which of the following questions would you include in an employee survey for appraisal? Select all the relevant answers.",
+        "options": [
+            "Submit",
+            "Submit",
+            "Submit",
+            "Submit"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    }
+
+    ,
+    {
+        "id": 13,
+        "question": "Which statement accurately reflects employee feedback about the Check-In system?",
+        "options": [
+            "A. 84% empowered, 71% better communication",
+            "B. 84% empowered, 71% goal FHI",
+            "C. 84% teamwork, 71% autonomy",
+            "D. 84% promotions, 71% communication"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+    ,
+    {
+        "id": 14,
+        "question": "According to data presented above, which of the following is the \nmost accurate statement?",
+        "options": [
+            "A. 48% agreed that it led to\n better FHI with team and organizational goals.",
+            "B. 67% felt managerial coaching\n to be more valuable than\n annual reviews.",
+            "C. 48% said career development discussions increased after implementation",
+            "D. 71% believed recognition and rewards became more fair after switching"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 4,
+                "FHI": 4,
+                "CBI": 2
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+        }
+        ,
+    {
+        "id": 15,
+        "question": "What did Adobe employees value more during Check-Ins \ncompared to annual reviews?",
+        "options": [
+            "A. Salary hikes",
+            "B. Managerial coaching",
+            "C. Flexible schedules",
+            "D. Project autonomy"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 4,
+                "FHI": 4,
+                "CBI": 2
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    } ,
+    {
+        "id": 16,
+        "question": "What percentage reported an increase in career development discussions after implementing Check-Ins?",
+        "options": [
+            "A. 67%",
+            "B. 71%",
+            "C. 59%",
+            "D. 48%"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+    ,
+    {
+        "id": 17,
+        "question": "After Adobe replaced annual appraisals with Check-Ins, which \n area saw the highest reported improvement?",
+        "options": [
+            "A. Career development discussions",
+            "B. Manager-employee trust",
+            "C. Reduction in stress and anxiety",
+            "D. SGI of \nrecognition and rewards"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 4,
+                "FHI": 4,
+                "CBI": 2
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 4,
+                "CBI": 3
+            }
+        ]
+    }
+     ,
+    {
+        "id": 18,
+        "question": "Which of the following was NOT a top benefit employees attributed\n to Adobe's Check-In system?",
+        "options": [
+            "A. Faster performance improvements (73%)",
+            "B. Higher salary growth (69%)",
+            "C. Stronger manager-employee trust (66%)",
+            "D. More frequent \nrecognition (52%)"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 4,
+                "CBI": 3
+            }
+        ]
+    }
+
+    ,
+    {
+        "id": 19,
+        "question": "After Adobe eliminated formal annual reviews, which combination of outcomes was most strongly supported by employee feedback?",
+        "options": [
+            "A. Reduced anxiety and improved salary hikes",
+            "B. Faster performance improvement and stronger trust",
+            "C. More promotions and higher bonuses",
+            "D. Frequent recognition and increased formal ratings"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 4,
+                "CBI": 3
+            }
+        ]
+    }
+    ,
+    {
+        "id": 20,
+        "question": "What best characterizes Adobe's current performance appraisal method? ",
+        "options": [
+            "A. Annual performance ratings with manager evaluations",
+            "B. Forced ranking of employees within teams",
+            "C. Ongoing feedback through\n Check-In conversations",
+            "D. Peer voting for promotions and bonuses"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 4,
+                "FHI": 4,
+                "CBI": 2
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+
+    ,
+    {
+        "id": 21,
+        "question": "Which appraisal method focuses primarily on assessing employee behavior in specific situations rather than outcomes or rankings?",
+        "options": [
+            "A. Management by Objectives\n (MBO)",
+            "B. Behaviorally Anchored Rating Scales (BARS)",
+            "C. Forced Distribution Method",
+            "D. 360-Degree Feedback"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+
+    ,
+    {
+        "id": 22,
+        "question": "In the context of performance appraisal, what is the primary \nrole of 360-degree feedback?",
+        "options": [
+            "A. Ranking employees against each other for promotion decisions",
+            "B. Gathering multi-source feedback \nto provide a holistic view of \nemployee performance",
+            "C. Setting numerical targets for employee objectives",
+            "D. Replacing managerial assessments with peer voting systems"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+     ,
+    {
+        "id": 23,
+        "question": "Why use the 360 degree feedback system?",
+        "options": [
+            "Submit",
+            "Submit",
+            "Submit",
+            "Submit"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+               "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+              "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    }
+
+    ,
+    {
+        "id": 24,
+        "question": "Match the Participants with their Roles",
+        "options": [
+            "Submit",
+            "Submit",
+            "Submit",
+            "Submit"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    }
+
+     ,
+    {
+        "id": 25,
+        "question": "Adobe's stack ranking system allows more than 15% of employees to be ranked. Which group do they fall under?",
+        "options": [
+            "A. Group A",
+            "B. Group B",
+            "C. Group C",
+            "D. Both Group A and Group B"
+        ],
+        "correctIndex": 3,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+    ,
+    {
+        "id": 26,
+        "question": "What are the disadvantages of Adobe's stack ranking system that led to switching into check-in approach ?",
+        "options": [
+            "Submit",
+            "Submit",
+            "Submit",
+            "Submit"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    }
+    ,
+    {
+        "id": 27,
+        "question": "Match Column A with Column B",
+        "options": [
+            "Submit",
+            "Submit",
+            "Submit",
+            "Submit"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+               "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    }
+    ,
+    {
+        "id": 28,
+        "question": "An employee completes their tasks on time but does not take the initiative to address potential issues or contribute to team innovation.They perform adequately but need more frequent feedback to grow. Which among the following is the correct classification?",
+        "options": [
+            "A. Needs Improvement ",
+            "B. Meets Expectations ",
+            "C. Exceeds Expectations ",
+            "D. Outstanding"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+    ,
+    {
+        "id": 29,
+        "question": "Which of the following are key principles of Management by Objectives(MBO)?",
+        "options": [
+            "Submit",
+            "Submit",
+            "Submit",
+            "Submit"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    }
+    ,
+    {
+        "id": 30,
+        "question": "ApacheTech introduced MBO, which initially boosted productivity as employees focused on clear goals. However, \nover time, teamwork declined, pressure to meet targets affected quality, departments became isolated,\n and innovation slowed. Now, management is rethinking their approach. Where did the problem lie?",
+        "options": [
+            "A. The goals were not clear enough, causing confusion.",
+            "B. The company failed to balance quantitative\n targets with qualitative aspects of work, \nleading to unintended consequences",
+            "C. Employees weren�t rewarded enough for meeting their goals, which reduced motivation.",
+            "D. Employees were resistant to any form of \ngoal-oriented management."
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+    ,
+    {
+        "id": 31,
+        "question": "Based on the data, which is the strongest insight about how appraisals affect Adobe's\n marketing team?",
+        "options": [
+            "A. Annual reviews are the most effective for marketers",
+            "B. Check-Ins improve \nadaptability and performance",
+            "C. Feedback systems reduce \ncreativity in marketing",
+            "D. Most marketers prefer no \nappraisal system"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 4,
+                "FHI": 4,
+                "CBI": 2
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+    ,
+    {
+        "id": 32,
+        "question": "From the survey, 72% say continuous feedback boosts creativity, and 81% say agile\n appraisals help adapt to campaigns. What does this suggest about the relationship between appraisal style and marketing effectiveness?",
+        "options": [
+            "A. Agile appraisals directly support creative adaptability",
+            "B. Creativity thrives only under\n annual reviews",
+            "C. Appraisal systems have no link \nto adaptability",
+            "D. Marketing effectiveness depends\n solely on bonus structures"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+    ,
+    {
+        "id": 33,
+        "question": "22% of marketers found annual reviews more motivating, while 75% preferred the Check-In system. What�s the best interpretation of this difference?",
+        "options": [
+            "A. Most marketers value dynamic over static appraisals",
+            "B. Marketers perform better \nwithout any reviews",
+            "C. Annual reviews provide better \nFHI to goals",
+            "D. Motivation is unrelated to \nappraisal method"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            },
+            {
+                "SGI": 3,
+                "FHI": 3,
+                "CBI": 4
+            }
+        ]
+    }
+]

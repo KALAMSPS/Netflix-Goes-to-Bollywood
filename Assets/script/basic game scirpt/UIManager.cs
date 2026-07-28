@@ -5,9 +5,9 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
 
-    public TMP_Text revenueText; // Changed to TMP_Text
-    public TMP_Text demandText;  // Changed to TMP_Text
-    public TMP_Text retailerText; // Changed to TMP_Text
+    public TMP_Text SGIText; // Changed to TMP_Text
+    public TMP_Text FHIText;  // Changed to TMP_Text
+    public TMP_Text CBIText; // Changed to TMP_Text
     public GameObject InvisibleParams;
     
     private void Awake()
@@ -25,9 +25,9 @@ public class UIManager : MonoBehaviour
         // Ensure GlobalDataManager instance is ready before UI initializes
         if (GlobalDataManager.instance != null)
         {
-            UpdateRevenueUI(GlobalDataManager.instance.globalData.revenue);
-            UpdateDemandUI(GlobalDataManager.instance.globalData.demand);
-            UpdateRetailerUI(GlobalDataManager.instance.globalData.retailer);
+            UpdateSGIUI(GlobalDataManager.instance.globalData.SGI);
+            UpdateFHIUI(GlobalDataManager.instance.globalData.FHI);
+            UpdateCGIUI(GlobalDataManager.instance.globalData.CGI);
         }
         else
         {
@@ -37,18 +37,18 @@ public class UIManager : MonoBehaviour
 
 
     // UI update methods
-    public void UpdateRevenueUI(int revenue)
+    public void UpdateSGIUI(int SGI)
     {
-        revenueText.text = $"Retention: {revenue}";
+        SGIText.text = $"{SGI}";
     }
 
-    public void UpdateDemandUI(int demand)
+    public void UpdateFHIUI(int FHI)
     {
-        demandText.text = $"Engagement: {demand}";
+        FHIText.text = $"{FHI}";
     }
 
-    public void UpdateRetailerUI(int retailer)
+    public void UpdateCGIUI(int CGI)
     {
-        retailerText.text = $"Productivity: {retailer}";
+        CBIText.text = $"{CGI}";
     }
 }

@@ -54,6 +54,13 @@ namespace secondWeek_Lu
             // **New Public Lists for Correct & Incorrect Toggles**
             public List<Toggle> correctToggles = new List<Toggle>();
             public List<Toggle> incorrectToggles = new List<Toggle>();
+            public bool requires3OptionMCQ;
+            public int mcq3ID;
+            public GameObject mcq3Box;
+            public TMP_Text mcq3QuestionText;
+            public Button[] mcq3AnswerButtons;
+            public AudioClip correctAnswerAudio3;
+            public AudioClip wrongAnswerAudio3;
         }
         public GameObject dialbox;
         public TMP_Text dialogueText;
@@ -131,11 +138,10 @@ namespace secondWeek_Lu
                     {
                         dialogue.mcqBox.SetActive(false);
                     }
-
-                    //if (dialogue.correctAnswerButton != null)
-                    //{
-                    //    dialogue.correctAnswerButton.onClick.AddListener(() => OnCorrectAnswerSelected(dialogue));
-                    //}
+                    if (dialogue.mcq3Box != null)
+                    {
+                        dialogue.mcq3Box.SetActive(false);
+                    }
 
 
                     if (dialogue.requiresToggleMCQ && dialogue.toggleMCQBox != null)
@@ -214,24 +220,6 @@ namespace secondWeek_Lu
                 if (!(isPlayer1Turn && dialogue.skipPlayer1OnlyShowMCQ))
                     yield return StartCoroutine(TypeText(speaker, message, audioClip, activeAnimator, inactiveAnimator));
 
-
-
-                //if (isPlayer1Turn)
-                //{
-                //    // Handle multiple MCQs
-                //    if (dialogue.requiresMultipleMCQs && dialogue.mcqIDs.Count > 0)
-                //    {
-                //        StartCoroutine(ShowMultipleMCQs(dialogue));
-                //        yield break;
-                //    }
-
-                //    // Handle single MCQ
-                //    if (dialogue.requiresMCQ)
-                //    {
-                //        ShowSingleMCQ(dialogue);
-                //        yield break;
-                //    }
-                //}
                 if (isPlayer1Turn)
                 {
                     // NEW: Skip Player1 dialogue and directly show MCQ
@@ -261,6 +249,14 @@ namespace secondWeek_Lu
                             sliderContainer.SetActive(false);
 
                         ShowSingleMCQ(dialogue);
+                        yield break;
+                    }
+                    if (dialogue.requires3OptionMCQ)
+                    {
+                        if (sliderContainer != null)
+                            sliderContainer.SetActive(false);
+
+                        Show3OptionMCQ(dialogue);
                         yield break;
                     }
                 }
@@ -395,7 +391,7 @@ namespace secondWeek_Lu
 
             if (playerController != null)
                 playerController.enabled = true;
-            
+
         }
 
         void ShowSingleMCQ(Dialogue dialogue)
@@ -451,6 +447,73 @@ namespace secondWeek_Lu
                             else
                                 OnWrongAnswerSelected(dialogue, btn);
                         });
+                    }
+                }
+                //gameObject.transform.GetChild(0).gameObject.SetActive(true);//Gaurav
+            }
+            else
+            {
+                Debug.LogError("MCQ ID " + dialogue.mcqID + " not found in database.");
+            }
+            //dialogue.mcqBox.SetActive(false);
+        }
+        void Show3OptionMCQ(Dialogue dialogue)
+        {
+            if (dialogue.player1Animator != null)
+                dialogue.player1Animator.Play("Idle");
+
+            if (cameraController != null) cameraController.enabled = false;
+
+            dialogueText.text = "";
+            speakerText.text = "";
+
+            if (dialogue.playerAnimEnable != null)
+                dialogue.playerAnimEnable.SetActive(false);
+            if (dialogue.playerAnimEnable2 != null)
+                dialogue.playerAnimEnable2.SetActive(false);
+
+            if (dialogue.player1Animator != null)
+                dialogue.player1Animator.Play("Idle");
+            if (dialogue.player2Animator != null)
+                dialogue.player2Animator.Play("Idle");
+            if (dialogue.player1Animator != null)
+                dialogue.player1Animator.Play("Idle");
+            //gameObject.transform.GetChild(0).gameObject.SetActive(false);// Gaurav
+            if (dialogue.mcq3Box != null)
+            {
+                dialbox.SetActive(false);
+                dialogue.mcq3Box.SetActive(true);
+            }
+
+            if (mcqDatabase.ContainsKey(dialogue.mcq3ID))
+            {
+                MCQData data = mcqDatabase[dialogue.mcq3ID];
+
+                if (dialogue.mcq3QuestionText != null)
+                    dialogue.mcq3QuestionText.text = data.question;
+
+                for (int i = 0; i < dialogue.mcq3AnswerButtons.Length; i++)
+                {
+                    TMP_Text btnText = dialogue.mcq3AnswerButtons[i].GetComponentInChildren<TMP_Text>();
+                    if (i < data.options.Length)
+                    {
+                        if (btnText != null) btnText.text = data.options[i];
+                        Button btn = dialogue.mcq3AnswerButtons[i];
+                        btn.onClick.RemoveAllListeners();
+                        int index = i;
+
+                        btn.onClick.AddListener(() =>
+                        {
+                            ApplyMCQImpact(data, index);
+                            if (index == data.correctIndex)
+                                OnCorrectAnswerSelected3(dialogue);
+                            else
+                                OnWrongAnswerSelected3(dialogue, btn);
+                        });
+                    }
+                    else
+                    {
+                        dialogue.mcq3AnswerButtons[i].gameObject.SetActive(false);
                     }
                 }
                 //gameObject.transform.GetChild(0).gameObject.SetActive(true);//Gaurav
@@ -598,56 +661,6 @@ namespace secondWeek_Lu
             yield return new WaitForSeconds(messageDelay);
         }
 
-
-        //IEnumerator HandleAnswerFeedback(Button selectedButton, bool isCorrect, Dialogue dialogue, float delay, System.Action onComplete)
-        //{
-        //    Image btnImage = selectedButton.GetComponent<Image>();
-        //    if (btnImage != null)
-        //    {
-        //        btnImage.color = isCorrect ? Color.green : Color.red;
-        //    }
-
-        //    foreach (var btn in dialogue.mcqAnswerButtons)
-        //    {
-        //        btn.interactable = false;
-        //    }
-
-        //    yield return new WaitForSeconds(delay);
-
-        //    onComplete?.Invoke();
-        //}
-        //IEnumerator HandleAnswerFeedback(Button selectedButton, bool isCorrect, Dialogue dialogue, float delay, System.Action onComplete)
-        //{
-        //    Image btnImage = selectedButton.GetComponent<Image>();
-        //    if (btnImage != null)
-        //    {
-        //        btnImage.color = isCorrect ? Color.green : Color.red;
-        //    }
-
-        //    foreach (var btn in dialogue.mcqAnswerButtons)
-        //    {
-        //        btn.interactable = false;
-        //    }
-
-        //    // Wait for 1 second to show feedback (green/red)
-        //    yield return new WaitForSeconds(1f);
-
-        //    // Set button color to white
-        //    if (btnImage != null)
-        //    {
-        //        btnImage.color = Color.white;
-        //    }
-
-        //    // Wait for the remaining delay (if any)
-        //    float remainingDelay = Mathf.Max(0, delay - 1f);
-        //    if (remainingDelay > 0)
-        //    {
-        //        yield return new WaitForSeconds(remainingDelay);
-        //    }
-
-        //    onComplete?.Invoke();
-        //}
-
         public bool ShowColorOption;
         public IEnumerator HandleAnswerFeedback(Button selectedButton, bool isCorrect, Dialogue dialogue, float delay, System.Action onComplete)
         {
@@ -672,6 +685,35 @@ namespace secondWeek_Lu
             }
 
             // Wait for remaining delay (if any)
+            float remainingDelay = Mathf.Max(0, delay - 1f);
+            if (remainingDelay > 0)
+            {
+                yield return new WaitForSeconds(remainingDelay);
+            }
+
+            onComplete?.Invoke();
+        }
+        public IEnumerator HandleAnswerFeedback3(Button selectedButton, bool isCorrect, Dialogue dialogue, float delay, System.Action onComplete)
+        {
+            Image btnImage = selectedButton.GetComponent<Image>();
+
+            if (ShowColorOption && btnImage != null)
+            {
+                btnImage.color = isCorrect ? Color.green : Color.red;
+            }
+
+            foreach (var btn in dialogue.mcq3AnswerButtons)
+            {
+                btn.interactable = false;
+            }
+
+            yield return new WaitForSeconds(1f);
+
+            if (btnImage != null)
+            {
+                btnImage.color = Color.white;
+            }
+
             float remainingDelay = Mathf.Max(0, delay - 1f);
             if (remainingDelay > 0)
             {
@@ -713,6 +755,27 @@ namespace secondWeek_Lu
                 StartCoroutine(StartConversation());
             }));
         }
+        public void OnWrongAnswerSelected3(Dialogue dialogue, Button selectedButton)
+        {
+            if (delayMCQClose)
+                StartCoroutine(HideMCQBoxAfterDelay(dialogue.mcq3Box, 2f));
+            else
+                dialogue.mcq3Box.SetActive(false);
+
+            Downwards.SetActive(true);
+            PlayAudio(dialogue.wrongAnswerAudio);
+            StopAllCoroutines();
+            StartCoroutine(HandleAnswerFeedback3(selectedButton, false, dialogue, 1.0f, () =>
+            {
+                StartCoroutine(PerformPostAnswerActivityWrong());
+
+                if (cameraController != null) cameraController.enabled = true;
+                Debug.Log("cameraController.enabled = true;");
+
+                isPlayer1Turn = false;
+                StartCoroutine(StartConversation());
+            }));
+        }
         public void OnCorrectAnswerSelected(Dialogue dialogue)
         {
             if (delayMCQClose)
@@ -738,93 +801,31 @@ namespace secondWeek_Lu
                 }));
             }
         }
+        public void OnCorrectAnswerSelected3(Dialogue dialogue)
+        {
+            if (delayMCQClose)
+                StartCoroutine(HideMCQBoxAfterDelay(dialogue.mcq3Box, 2f));
+            else
+                dialogue.mcq3Box.SetActive(false);
 
-        /*//ye naya vala hai
-         * public void OnCorrectAnswerSelected(Dialogue dialogue)
-         {
-             Upward.SetActive(true);
-             PlayAudio(dialogue.correctAnswerAudio);
+            Upward.SetActive(true);
+            PlayAudio(dialogue.correctAnswerAudio);
 
-             if (mcqDatabase.TryGetValue(dialogue.mcqID, out var data))
-             {
-                 Button selectedButton = dialogue.mcqAnswerButtons[data.correctIndex];
-                 StopAllCoroutines();
-                 StartCoroutine(CloseMCQAndContinue(dialogue, selectedButton, true, 0.1f, PerformPostAnswerActivityCorrect));
-             }
-         }
+            if (mcqDatabase.TryGetValue(dialogue.mcq3ID, out var data))
+            {
+                Button selectedButton = dialogue.mcq3AnswerButtons[data.correctIndex];
+                StopAllCoroutines();
+                StartCoroutine(HandleAnswerFeedback(selectedButton, true, dialogue, 0.1f, () =>
+                {
+                    StartCoroutine(PerformPostAnswerActivityCorrect());
 
-         public void OnWrongAnswerSelected(Dialogue dialogue, Button selectedButton)
-         {
-             Downwards.SetActive(true);
-             PlayAudio(dialogue.wrongAnswerAudio);
-             StopAllCoroutines();
-             StartCoroutine(CloseMCQAndContinue(dialogue, selectedButton, false, 1.0f, PerformPostAnswerActivityWrong));
-         }
-
-         private IEnumerator CloseMCQAndContinue(Dialogue dialogue, Button selectedButton, bool isCorrect, float feedbackDelay, Func<IEnumerator> postAction)
-         {
-             yield return new WaitForSeconds(2f); // Wait before closing the MCQ box
-             dialogue.mcqBox.SetActive(false);
-
-             yield return StartCoroutine(HandleAnswerFeedback(selectedButton, isCorrect, dialogue, feedbackDelay, () =>
-             {
-                 StartCoroutine(postAction());
-
-                 // unfreeze camera
-                 if (cameraController != null) cameraController.enabled = true;
-                 Debug.Log("cameraController.enabled = true;");
-
-                 isPlayer1Turn = false;
-                 StartCoroutine(StartConversation());
-             }));
-         }   ye naya vala hai*/
-
-
-
-        // ye purana hia
-        //public void OnCorrectAnswerSelected(Dialogue dialogue)
-        //{
-        //    dialogue.mcqBox.SetActive(false);
-        //    Upward.SetActive(true);
-        //    PlayAudio(dialogue.correctAnswerAudio);
-
-        //    if (mcqDatabase.TryGetValue(dialogue.mcqID, out var data))
-        //    {
-        //        Button selectedButton = dialogue.mcqAnswerButtons[data.correctIndex];
-        //        StopAllCoroutines();
-        //        StartCoroutine(HandleAnswerFeedback(selectedButton, true, dialogue, 0.1f, () =>
-        //        {
-        //            StartCoroutine(PerformPostAnswerActivityCorrect());
-
-        //            // unfreeze camera
-        //            if (cameraController != null) cameraController.enabled = true;
-        //            Debug.Log("cameraController.enabled = true;");
-        //            isPlayer1Turn = false;
-        //            StartCoroutine(StartConversation());
-        //        }));
-        //    }
-        //}
-
-        //public void OnWrongAnswerSelected(Dialogue dialogue, Button selectedButton)
-        //{
-        //    Downwards.SetActive(true);
-        //    dialogue.mcqBox.SetActive(false);
-        //    PlayAudio(dialogue.wrongAnswerAudio);
-        //    StopAllCoroutines();
-        //    StartCoroutine(HandleAnswerFeedback(selectedButton, false, dialogue, 1.0f, () =>
-        //    {
-        //        StartCoroutine(PerformPostAnswerActivityWrong());
-
-        //        // unfreeze camera
-        //        if (cameraController != null) cameraController.enabled = true;
-        //        Debug.Log("cameraController.enabled = true;");
-
-
-        //        isPlayer1Turn = false;
-        //        StartCoroutine(StartConversation());
-        //    }));
-        //}
-        // ye purana hai
+                    if (cameraController != null) cameraController.enabled = true;
+                    Debug.Log("cameraController.enabled = true;");
+                    isPlayer1Turn = false;
+                    StartCoroutine(StartConversation());
+                }));
+            }
+        }
         private IEnumerator PerformPostAnswerActivityCorrect()
         {
             if (cameraController != null) cameraController.enabled = true;
@@ -871,12 +872,12 @@ namespace secondWeek_Lu
             if (isCorrect)
             {
                 PerformCorrectPairSelection(dialogue);
-                GlobalDataManager.instance.AddRevenue(toggleData.impact.Frequency);
-                GlobalDataManager.instance.AddDemand(toggleData.impact.Alignment);
-                GlobalDataManager.instance.AddRetailer(toggleData.impact.Accountability);
+                GlobalDataManager.instance.AddSGI(toggleData.impact.SGI);
+                GlobalDataManager.instance.AddFHI(toggleData.impact.FHI);
+                GlobalDataManager.instance.AddCGI(toggleData.impact.CGI);
                 Debug.Log("gb100");
 
-                Debug.Log($"✅ Toggle Correct: Revenue={toggleData.impact.Frequency}, Demand={toggleData.impact.Alignment}, Reputation={toggleData.impact.Accountability}");
+                Debug.Log($"✅ Toggle Correct: SGI={toggleData.impact.SGI}, FHI={toggleData.impact.FHI}, CGI={toggleData.impact.CGI}");
             }
             else
             {
@@ -953,7 +954,7 @@ namespace secondWeek_Lu
             foreach (var mcq in dataList.mcqs)
             {
                 mcqDatabase[mcq.id] = mcq;
-             
+
             }
         }
         private Dictionary<int, ToggleQuestionData> toggleQuestionDatabase = new Dictionary<int, ToggleQuestionData>();
@@ -975,20 +976,24 @@ namespace secondWeek_Lu
         }
         public void ApplyMCQImpact(MCQData data, int index)
         {
+            Debug.Log("Data Null : " + (data == null));
+            Debug.Log("Impacts Null : " + (data.impacts == null));
+            Debug.Log("Impact Length : " + (data.impacts != null ? data.impacts.Length : -1));
+            Debug.Log("Global Instance : " + GlobalDataManager.instance);
             if (data.impacts != null && index < data.impacts.Length)
             {
                 var impact = data.impacts[index];
-                GlobalDataManager.instance.AddRevenue(impact.Frequency);
-                GlobalDataManager.instance.AddDemand(impact.Alignment);
-                GlobalDataManager.instance.AddRetailer(impact.Accountability);
+                GlobalDataManager.instance.AddSGI(impact.SGI);
+                GlobalDataManager.instance.AddFHI(impact.FHI);
+                GlobalDataManager.instance.AddCGI(impact.CGI);
             }
         }
         [System.Serializable]
         public class ImpactData
         {
-            public int Frequency;
-            public int Alignment;
-            public int Accountability;
+            public int SGI;
+            public int FHI;
+            public int CGI;
         }
         [System.Serializable]
         public class MCQData
@@ -1020,4 +1025,3 @@ namespace secondWeek_Lu
         }
     }
 }
-
