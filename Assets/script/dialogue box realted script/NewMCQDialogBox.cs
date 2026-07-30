@@ -70,11 +70,7 @@ namespace secondWeek_Lu
         private float baseCharacterDelay;
         private float baseMessageDelay;
 
-        // Speed control
-        public GameObject sliderContainer;
-        public Slider speedSlider;
-
-        public float characterDelay = 0.05f;
+        public float characterDelay;
         public float messageDelay = 1.0f;
 
         public Dialogue[] dialogues;
@@ -106,25 +102,8 @@ namespace secondWeek_Lu
             // Save base values
             baseCharacterDelay = characterDelay;
             baseMessageDelay = messageDelay;
-
-            // Initialize slider UI
-            if (sliderContainer != null)
-                sliderContainer.SetActive(false);
-
             cameraController = FindObjectOfType<CameraController>();
             if (cameraController == null) Debug.LogError("CameraController not found!");
-            else Debug.Log("CameraController cached.");
-
-            // Configure slider range and listener
-            if (speedSlider != null)
-            {
-                speedSlider.minValue = 1;
-                speedSlider.maxValue = 10;
-                speedSlider.wholeNumbers = true;
-                speedSlider.value = 5;
-                speedSlider.onValueChanged.AddListener(OnSpeedSliderChanged);
-            }
-
             LoadMCQDatabase();
             LoadToggleQuestionDatabase();
             if (dialogueText != null && speakerText != null && dialogues.Length > 0)
@@ -170,28 +149,9 @@ namespace secondWeek_Lu
                 Debug.Log("Diary called!");
             }
         }
-        void OnSpeedSliderChanged(float value)
-        {
-            // Normalize slider to [0,1]
-            float t = (value - speedSlider.minValue) / (speedSlider.maxValue - speedSlider.minValue);
-            // Smooth map to speed factor
-            float speed = Mathf.Lerp(0.5f, 2f, t);
-
-            // Adjust text delays and audio pitch
-            characterDelay = baseCharacterDelay / speed;
-            messageDelay = baseMessageDelay / speed;
-
-            if (audioSource != null)
-                audioSource.pitch = speed;
-        }
+    
         IEnumerator StartConversation()
         {
-            // Enable speed slider at conversation start
-            if (sliderContainer != null)
-                sliderContainer.SetActive(true);
-
-
-
             while (currentDialogueIndex < dialogues.Length)
             {
                 var dialogue = dialogues[currentDialogueIndex];
@@ -225,9 +185,6 @@ namespace secondWeek_Lu
                     // NEW: Skip Player1 dialogue and directly show MCQ
                     if (dialogue.skipPlayer1OnlyShowMCQ && dialogue.requiresMCQ)
                     {
-                        if (sliderContainer != null)
-                            sliderContainer.SetActive(false);
-
                         ShowSingleMCQ(dialogue);
                         yield break;
                     }
@@ -235,9 +192,6 @@ namespace secondWeek_Lu
                     // Handle multiple MCQs
                     if (dialogue.requiresMultipleMCQs && dialogue.mcqIDs.Count > 0)
                     {
-                        if (sliderContainer != null)
-                            sliderContainer.SetActive(false);
-
                         StartCoroutine(ShowMultipleMCQs(dialogue));
                         yield break;
                     }
@@ -245,17 +199,11 @@ namespace secondWeek_Lu
                     // Handle single MCQ
                     if (dialogue.requiresMCQ)
                     {
-                        if (sliderContainer != null)
-                            sliderContainer.SetActive(false);
-
                         ShowSingleMCQ(dialogue);
                         yield break;
                     }
                     if (dialogue.requires3OptionMCQ)
                     {
-                        if (sliderContainer != null)
-                            sliderContainer.SetActive(false);
-
                         Show3OptionMCQ(dialogue);
                         yield break;
                     }
@@ -264,9 +212,6 @@ namespace secondWeek_Lu
 
                 if (isPlayer1Turn && dialogue.requiresToggleMCQ)
                 {
-                    if (sliderContainer != null)
-                        sliderContainer.SetActive(false);
-
                     if (dialogue.toggleMCQBox != null)
                     {
                         dialogue.toggleMCQBox.SetActive(true);
@@ -374,9 +319,6 @@ namespace secondWeek_Lu
             {
                 dialogues[dialogues.Length - 1].player2Animator.Play("Idle");
             }
-            if (sliderContainer != null)
-                sliderContainer.SetActive(false);
-
             StartCoroutine(InvokeConversationCompleteWithDelay(1f));
 
             // onConversationComplete?.Invoke();

@@ -34,345 +34,313 @@
     },
     {
         "id": 2,
-        "question": "What do you know about how Adobe manages performance without traditional appraisals?",
+        "question": "Where do you focus expansion capital?",
         "options": [
-            "A.Adobe follows a 360-degree peer review system once a year to finalize promotions and bonuses.",
-            "B.Adobe uses a flexible 'Check-In' system that emphasizes ongoing conversations between managers and employees.",
-            "C.Managers conduct surprise assessments to keep employees on their toes and ensure peak performance."
+            "More distribution centers nationally",
+            "Hold expansion, prioritize profitability",
+            "Partner with a retailer for co-located distribution"
         ],
         "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 8,
+                "FHI": -6,
+                "CBI": 0
             },
             {
-                "SGI": 4,
-                "FHI": 4,
+                "SGI": -4,
+                "FHI": 7,
                 "CBI": 2
             },
             {
-                "SGI": 1,
+                "SGI": 4,
                 "FHI": 2,
-                "CBI": 7
+                "CBI":-3
             }
         ]
     },
     {
         "id": 3,
-        "question": "Which of the following is a common disadvantage of traditional annual performance appraisals?",
+        "question": "Positioning as \"the Amazon.com of something\" before settling on DVDs reflects:",
         "options": [
-            "A.They promote continuous feedback and development",
-            "B.They encourage real-time recognition of achievements",
-            "C. They often provide outdated or irrelevant feedback",
-            "D. They eliminate the need for documentation"
+            "Market segmentation",
+            "Emergent/opportunistic strategy",
+            "Diversification",
+            "Vertical integration"
         ],
-        "correctIndex": 2,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 4,
-                "FHI": 4,
-                "CBI": 2
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 4,
-                "CBI": 3
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
             },
             {
-                "SGI": 2,
-                "FHI": 2,
-                "CBI": 6
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 2,
-                "FHI": 2,
-                "CBI": 6
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
     },
     {
         "id": 4,
-        "question": "What is the primary purpose of a performance appraisal system in any organization?",
+        "question": "Retail sale vs. rental subscription, given Amazon/Wal-Mart's retail scale?",
         "options": [
-            "A. To maintain strict surveillance over employees",
-            "B. To create competition between departments",
-            "C. To evaluate employee contributions and support growth",
-            "D. To rank employees purely for layoffs"
+            "Compete in retail against Amazon/Wal-Mart",
+            "Pivot to rental subscription",
+            "Do both simultaneously"
         ],
-        "correctIndex": 2,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": -6,
+                "FHI": -5,
+                "CBI": -4
             },
             {
-                "SGI": 2,
-                "FHI": 2,
+                "SGI": 7,
+                "FHI": 3,
                 "CBI": 6
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 2,
+                "FHI":-4,
+                "CBI":-2
             }
         ]
     },
     {
         "id": 5,
-        "question": "Which best explains a major criticism of stack ranking, where employees are forced into top, average, and low performer categories?",
+        "question": "Does launching lean (30 employees, 925 titles) reflect disciplined focus, or a gap to fix immediately?",
         "options": [
-            "A. It promotes excessive\n collaboration at the cost of\n individual CBI",
-            "B. It can demotivate employees by\n creating internal competition and\n discouraging teamwork",
-            "C. It relies entirely on self \nassessments without managerial\n input",
-            "D. It is only effective in flat\n organizational structures with no\n hierarchy"
+            "Disciplined focus",
+            "Resource constraint to fix now",
+            "Irrelevant",
+            "A mistake"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
             },
             {
-                "SGI": 2,
-                "FHI": 2,
-                "CBI": 6
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
     },
     {
         "id": 6,
-        "question": "We at Adobe moved away from stack ranking. What could have\n been the possible reasons?",
+        "question": "Overnight-delivery logistics vs. catalog expansion?",
         "options": [
-            "A.Because it led to unfair pay \npractices and favoritism",
-            "B.Because it created unnecessary competition and stress among\n employees",
-            "C.Because it was too time-consuming\n for HR and managers",
-            "D.Because employees were not\n meeting performance expectations under that system"
+            "Prioritize logistics",
+            "Prioritize catalog",
+            "Split evenly"
         ],
         "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  6,
+                "FHI": -3,
+                "CBI":  1
+            },
+            {
+                "SGI":  3,
+                "FHI": -2,
+                "CBI":  2
             },
             {
                 "SGI": 2,
-                "FHI": 2,
-                "CBI": 6
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "FHI":-2,
+                "CBI": 0
             }
         ]
     },
     {
         "id": 7,
-        "question": "One key element of Check-Ins is that they focus on ___________.",
+        "question": "Using location-correlated growth data to guide strategy is:",
         "options": [
-            "A. Assigning numeric scores to employees",
-            "B. Filling standardized HR forms to\n track compliance",
-            "C. Having open conversations about goals, growth, and feedback",
-            "D. Discussing bonuses and salary adjustments in detail"
+            "Data-driven decision-making",
+            "Anecdotal evidence",
+            "Groupthink",
+            "Sunk-cost reasoning"
         ],
-        "correctIndex": 2,
+        "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
     },
     {
         "id": 8,
-        "question": "Why is goal co-creation effective in performance systems?",
+        "question": "300K subscribers, still unprofitable, investors anxious.",
         "options": [
-            "A. Builds ownership and motivation",
-            "B. Avoids top-down control",
-            "C. Skips formal reviews",
-            "D. Focuses on market benchmarks"
+            "Raise a large round, keep growing",
+            "Cut costs, prioritize profitability path",
+            "Modest round + trim non-core costs"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  7,
+                "FHI": -7,
+                "CBI":  0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": -5,
+                "FHI":  8,
+                "CBI":  1
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 2,
+                "FHI": 2,
+                "CBI": 3
             }
         ]
     },
     {
         "id": 9,
-        "question": "Which of the following can be inferred from this conversation?",
+        "question": "A focused value proposition instead of serving every segment is:",
         "options": [
-            "A. Adobe Creative Cloud is limited\n to only desktop users.",
-            "B. The Touch Apps component\n allows tablet users to create\n content.",
-            "C. Adobe's Business Catalyst is part\n of the Community feature.",
-            "D. Adobe removed collaborative\n tools from the subscription model."
+            "Focus/differentiation strategy (Porter)",
+            "Cost leadership",
+            "Blue-ocean elimination ",
+            "Horizontal integration"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
     },
     {
         "id": 10,
-        "question": "84% of employees feel empowered under the Check-In system of goal setting",
+        "question": "Heading into the Blockbuster meeting, what's your posture?",
         "options": [
-            "A. Empowerment linked to goal-setting",
-            "B. Employees need appraisal tool training",
-            "C. Reintroduce formal annual\n reviews",
-            "D. Empowerment tied to monetary rewards"
+            "Scrappy challenger seeking partnership",
+            "Independent innovator, ready to go it alone ",
+            "Undecided, let the meeting decide"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  2,
+                "FHI":  2,
+                "CBI": -3
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  5
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI":-2
             }
         ]
-    }
-    ,
+    },
     {
         "id": 11,
-        "question": "71% employees: regular Check-Ins improved FHI with team goals.",
+        "question": "Response to rejection?",
         "options": [
-            "A. Frequent feedback improves strategic FHI ",
-            "B. Employees undervalue formal\n goal cycles",
-            "C. FHI gaps stem from weak bonuses",
-            "D. Team FHI needs quarterly reviews"
+            "Lower the ask, try again",
+            "Walk away, go all-in on independent streaming/DVD pivot",
+            "Seek a different media partner"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": -2,
+                "FHI":  3,
+                "CBI": -5
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  6,
+                "FHI": -3,
+                "CBI":  8
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 1,
+                "FHI": 0,
+                "CBI":-2
             }
         ]
-    }
-    ,
+    },
     {
         "id": 12,
-        "question": "Which of the following questions would you include in an employee survey for appraisal? Select all the relevant answers.",
+        "question": "Blockbuster's failure to see Netflix as a threat despite 20M active users is:",
         "options": [
-            "Submit",
-            "Submit",
-            "Submit",
-            "Submit"
+            "Incumbent inertia / disruptive-innovation blind spot",
+            "First-mover advantage",
+            "Vertical integration",
+            "Economies of scale"
         ],
         "correctIndex": 0,
         "impacts": [
             {
                 "SGI": 0,
                 "FHI": 0,
-                "CBI": 0
+                "CBI": 5
             },
             {
                 "SGI": 0,
@@ -390,401 +358,349 @@
                 "CBI": 0
             }
         ]
-    }
-
-    ,
+    },
     {
         "id": 13,
-        "question": "Which statement accurately reflects employee feedback about the Check-In system?",
+        "question": "Publicly campaign against late fees",
         "options": [
-            "A. 84% empowered, 71% better communication",
-            "B. 84% empowered, 71% goal FHI",
-            "C. 84% teamwork, 71% autonomy",
-            "D. 84% promotions, 71% communication"
+            "Publicly campaign against late fees",
+            "Stay quiet, avoid retaliation",
+            "Use it selectively in key growth markets"
         ],
         "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  5,
+                "FHI": -1,
+                "CBI":  4
+            },
+            {
+                "SGI": -2,
+                "FHI":  2,
+                "CBI": -1
             },
             {
                 "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "FHI": 0,
+                "CBI": 1
             }
         ]
-    }
-    ,
+    },
     {
         "id": 14,
-        "question": "According to data presented above, which of the following is the \nmost accurate statement?",
+        "question": "Going public in 2002 at modest scale (600K subs) mainly served:",
         "options": [
-            "A. 48% agreed that it led to\n better FHI with team and organizational goals.",
-            "B. 67% felt managerial coaching\n to be more valuable than\n annual reviews.",
-            "C. 48% said career development discussions increased after implementation",
-            "D. 71% believed recognition and rewards became more fair after switching"
+            "Access to capital markets for growth",
+            "Immediate profitability",
+            "Avoiding competition",
+            "Simplifying governance"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 4,
-                "FHI": 4,
-                "CBI": 2
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
-        }
-        ,
+    },
     {
         "id": 15,
-        "question": "What did Adobe employees value more during Check-Ins \ncompared to annual reviews?",
+        "question": "Blockbuster launches its own online service in 2004. Your response?",
         "options": [
-            "A. Salary hikes",
-            "B. Managerial coaching",
-            "C. Flexible schedules",
-            "D. Project autonomy"
+            "Cut prices aggressively",
+            "Double down on content/library breadth",
+            "Ignore and stay the course"
         ],
         "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  5,
+                "FHI": -8,
+                "CBI": -2
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  4,
+                "FHI": -2,
+                "CBI":  5
             },
             {
-                "SGI": 4,
-                "FHI": 4,
-                "CBI": 2
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 2,
+                "CBI": 1
             }
         ]
-    } ,
+    },
     {
         "id": 16,
-        "question": "What percentage reported an increase in career development discussions after implementing Check-Ins?",
+        "question": "Blockbuster's 2010 bankruptcy illustrates the risk of:",
         "options": [
-            "A. 67%",
-            "B. 71%",
-            "C. 59%",
-            "D. 48%"
+            "Failing to adapt the business model to a changing market",
+            "Overexpansion",
+            "Currency risk",
+            "Regulatory capture"
         ],
-        "correctIndex": 2,
+        "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
-    }
-    ,
+    },
     {
         "id": 17,
-        "question": "After Adobe replaced annual appraisals with Check-Ins, which \n area saw the highest reported improvement?",
+        "question": "Broadband is slow in 2007; Disney's costly $200 set-top-box rental service is floundering. Your approach?",
         "options": [
-            "A. Career development discussions",
-            "B. Manager-employee trust",
-            "C. Reduction in stress and anxiety",
-            "D. SGI of \nrecognition and rewards"
+            "Follow Disney's hardware-first model",
+            "Build a lightweight software streaming player",
+            "Wait for broadband to mature"
         ],
-        "correctIndex": 2,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 4,
-                "FHI": 4,
-                "CBI": 2
+               "SGI": -5,
+                "FHI": -6,
+                "CBI": -4
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  7,
+                "FHI":  3,
+                "CBI":  6 
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 4,
-                "CBI": 3
+                "SGI": -6,
+                "FHI":  2,
+                "CBI":  0
             }
         ]
-    }
-     ,
+    },
     {
         "id": 18,
-        "question": "Which of the following was NOT a top benefit employees attributed\n to Adobe's Check-In system?",
+        "question": "Disney's costly hardware failing while Netflix's software succeeded shows the importance of:",
         "options": [
-            "A. Faster performance improvements (73%)",
-            "B. Higher salary growth (69%)",
-            "C. Stronger manager-employee trust (66%)",
-            "D. More frequent \nrecognition (52%)"
+            "Minimizing adoption friction",
+            "Brand loyalty",
+            "Patents",
+            "Vertical integration"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 4,
-                "CBI": 3
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
-    }
-
-    ,
+    },
     {
         "id": 19,
-        "question": "After Adobe eliminated formal annual reviews, which combination of outcomes was most strongly supported by employee feedback?",
+        "question": "Fund the streaming pivot from DVD profits, or take on financing?",
         "options": [
-            "A. Reduced anxiety and improved salary hikes",
-            "B. Faster performance improvement and stronger trust",
-            "C. More promotions and higher bonuses",
-            "D. Frequent recognition and increased formal ratings"
+            "Fund entirely from DVD profits",
+            "Take on financing to accelerate",
+            "Blend financing + reinvested profits"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": -2,
+                "FHI":  6,
+                "CBI":  2
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  6,
+                "FHI": -5,
+                "CBI":  0 
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 4,
-                "CBI": 3
+                "SGI":  3,
+                "FHI":  2,
+                "CBI":  3
             }
         ]
-    }
-    ,
+    },
     {
         "id": 20,
-        "question": "What best characterizes Adobe's current performance appraisal method? ",
+        "question": "Was walking away from Blockbuster and betting on independent streaming, without certainty broadband would mature in time, a correct application of \"framing decisions as bets\"?",
         "options": [
-            "A. Annual performance ratings with manager evaluations",
-            "B. Forced ranking of employees within teams",
-            "C. Ongoing feedback through\n Check-In conversations",
-            "D. Peer voting for promotions and bonuses"
+            "Yes",
+            "No, should've waited for certainty",
+            "Irrelevant concept",
+            "Only applies to hiring"
         ],
-        "correctIndex": 2,
+        "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 4,
-                "FHI": 4,
-                "CBI": 2
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
-    }
-
-    ,
+    },
     {
         "id": 21,
-        "question": "Which appraisal method focuses primarily on assessing employee behavior in specific situations rather than outcomes or rankings?",
+        "question": "Engineering budget: streaming vs. DVD logistics?",
         "options": [
-            "A. Management by Objectives\n (MBO)",
-            "B. Behaviorally Anchored Rating Scales (BARS)",
-            "C. Forced Distribution Method",
-            "D. 360-Degree Feedback"
+            "Heavy majority to streaming",
+            "Heavy majority to DVD logistics",
+            "Balanced split"
         ],
         "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  7,
+                "FHI": -6,
+                "CBI":  3
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": -5,
+                "FHI":  6,
+                "CBI": -3 
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  2,
+                "FHI":  1,
+                "CBI":  2
             }
         ]
-    }
-
-    ,
+    },
     {
         "id": 22,
-        "question": "In the context of performance appraisal, what is the primary \nrole of 360-degree feedback?",
+        "question": "Launching streaming alongside a profitable DVD business risks:",
         "options": [
-            "A. Ranking employees against each other for promotion decisions",
-            "B. Gathering multi-source feedback \nto provide a holistic view of \nemployee performance",
-            "C. Setting numerical targets for employee objectives",
-            "D. Replacing managerial assessments with peer voting systems"
+            "Cannibalization of the core business",
+            "Vertical integration",
+            "Regulatory risk",
+            "Currency exposure"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
-    }
-     ,
+    },
     {
         "id": 23,
-        "question": "Why use the 360 degree feedback system?",
+        "question": "Bundle streaming into existing price, or price separately?",
         "options": [
-            "Submit",
-            "Submit",
-            "Submit",
-            "Submit"
+            "Bundle at no extra cost",
+            "Price as separate premium tier ",
+            "Low-cost add-on tier"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
+                "SGI":  6,
+                "FHI": -5,
+                "CBI":  3
             },
             {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
+                "SGI": -2,
+                "FHI":  4,
+                "CBI": -1 
             },
             {
-               "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
-            },
-            {
-              "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
+                "SGI":  3,
+                "FHI":  1,
+                "CBI":  2
             }
         ]
-    }
-
-    ,
+    },
     {
         "id": 24,
-        "question": "Match the Participants with their Roles",
+        "question": "The \"innovator's dilemma\" describes:",
         "options": [
-            "Submit",
-            "Submit",
-            "Submit",
-            "Submit"
+            "Rational under-investment in disruptive tech serving smaller/less-profitable segments",
+            "Overinvestment in R&D",
+            "Capital shortage",
+            "Currency risk"
         ],
         "correctIndex": 0,
         "impacts": [
             {
                 "SGI": 0,
                 "FHI": 0,
-                "CBI": 0
+                "CBI": 5
             },
             {
                 "SGI": 0,
@@ -802,56 +718,47 @@
                 "CBI": 0
             }
         ]
-    }
-
-     ,
+    },
     {
         "id": 25,
-        "question": "Adobe's stack ranking system allows more than 15% of employees to be ranked. Which group do they fall under?",
+        "question": "Streaming quality will be poor on slow broadband. Launch now or delay?",
         "options": [
-            "A. Group A",
-            "B. Group B",
-            "C. Group C",
-            "D. Both Group A and Group B"
+            "Launch now, iterate publicly",
+            "Delay until broadband improves",
+            "Launch a limited beta only"
         ],
-        "correctIndex": 3,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  6,
+                "FHI":  0,
+                "CBI":  5
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": -6,
+                "FHI":  3,
+                "CBI": -2 
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI":  1,
+                "FHI":  2,
+                "CBI":  2
             }
         ]
-    }
-    ,
+    },
     {
         "id": 26,
-        "question": "What are the disadvantages of Adobe's stack ranking system that led to switching into check-in approach ?",
+        "question": "Launching an imperfect product early to learn from real users reflects",
         "options": [
-            "Submit",
-            "Submit",
-            "Submit",
-            "Submit"
+            "Lean/iterative product development",
+            "Six Sigma",
+            "Just-in-time manufacturing",
+            "Total quality management"
         ],
         "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 0,
+                "SGI": 5,
                 "FHI": 0,
                 "CBI": 0
             },
@@ -871,242 +778,124 @@
                 "CBI": 0
             }
         ]
-    }
-    ,
+    },
     {
         "id": 27,
-        "question": "Match Column A with Column B",
+        "question": "Amazon/Wal-Mart are also eyeing digital video. Rush to market or perfect the tech first?",
         "options": [
-            "Submit",
-            "Submit",
-            "Submit",
-            "Submit"
+            "Rush for first-mover advantage",
+            "Take more time to perfect it",
+            "Match competitors' timeline exactly"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
+                "SGI":  7,
+                "FHI": -3,
+                "CBI":  4
             },
             {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
+                "SGI": -4,
+                "FHI":  3,
+                "CBI": -1 
             },
             {
-               "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
+                "SGI":  0,
+                "FHI":  0,
+                "CBI":  0
             }
         ]
-    }
-    ,
+    },
     {
         "id": 28,
-        "question": "An employee completes their tasks on time but does not take the initiative to address potential issues or contribute to team innovation.They perform adequately but need more frequent feedback to grow. Which among the following is the correct classification?",
+        "question": "Capturing disproportionate value by being first to a category is:",
         "options": [
-            "A. Needs Improvement ",
-            "B. Meets Expectations ",
-            "C. Exceeds Expectations ",
-            "D. Outstanding"
+            "First-mover advantage",
+            "Vertical integration",
+            "Price discrimination",
+            "Horizontal diversification"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
-    }
-    ,
+    },
     {
         "id": 29,
-        "question": "Which of the following are key principles of Management by Objectives(MBO)?",
+        "question": "Keep the lean, low-process culture as the company scales, or add formal process now?",
         "options": [
-            "Submit",
-            "Submit",
-            "Submit",
-            "Submit"
+            "Keep lean culture as-is",
+            "Introduce formal process/bureaucracy",
+            "Light-touch process only for safety-critical areas"
         ],
         "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  6
             },
             {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
+                "SGI": -1,
+                "FHI":  3,
+                "CBI": -7 
             },
             {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
+                "SGI":  2,
+                "FHI":  2,
+                "CBI":  4
             }
         ]
-    }
-    ,
+    },
     {
         "id": 30,
-        "question": "ApacheTech introduced MBO, which initially boosted productivity as employees focused on clear goals. However, \nover time, teamwork declined, pressure to meet targets affected quality, departments became isolated,\n and innovation slowed. Now, management is rethinking their approach. Where did the problem lie?",
+        "question": "Hastings will later say error-tolerance suits a creative business. Does launching streaming on imperfect broadband, prioritizing speed over certainty, align with that?",
         "options": [
-            "A. The goals were not clear enough, causing confusion.",
-            "B. The company failed to balance quantitative\n targets with qualitative aspects of work, \nleading to unintended consequences",
-            "C. Employees weren�t rewarded enough for meeting their goals, which reduced motivation.",
-            "D. Employees were resistant to any form of \ngoal-oriented management."
-        ],
-        "correctIndex": 1,
-        "impacts": [
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            }
-        ]
-    }
-    ,
-    {
-        "id": 31,
-        "question": "Based on the data, which is the strongest insight about how appraisals affect Adobe's\n marketing team?",
-        "options": [
-            "A. Annual reviews are the most effective for marketers",
-            "B. Check-Ins improve \nadaptability and performance",
-            "C. Feedback systems reduce \ncreativity in marketing",
-            "D. Most marketers prefer no \nappraisal system"
-        ],
-        "correctIndex": 1,
-        "impacts": [
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 4,
-                "FHI": 4,
-                "CBI": 2
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            }
-        ]
-    }
-    ,
-    {
-        "id": 32,
-        "question": "From the survey, 72% say continuous feedback boosts creativity, and 81% say agile\n appraisals help adapt to campaigns. What does this suggest about the relationship between appraisal style and marketing effectiveness?",
-        "options": [
-            "A. Agile appraisals directly support creative adaptability",
-            "B. Creativity thrives only under\n annual reviews",
-            "C. Appraisal systems have no link \nto adaptability",
-            "D. Marketing effectiveness depends\n solely on bonus structures"
+            "Yes",
+            "No, only applies to hiring",
+            "No, contradicts it",
+            "Irrelevant"
         ],
         "correctIndex": 0,
         "impacts": [
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             },
             {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            }
-        ]
-    }
-    ,
-    {
-        "id": 33,
-        "question": "22% of marketers found annual reviews more motivating, while 75% preferred the Check-In system. What�s the best interpretation of this difference?",
-        "options": [
-            "A. Most marketers value dynamic over static appraisals",
-            "B. Marketers perform better \nwithout any reviews",
-            "C. Annual reviews provide better \nFHI to goals",
-            "D. Motivation is unrelated to \nappraisal method"
-        ],
-        "correctIndex": 0,
-        "impacts": [
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
-            },
-            {
-                "SGI": 3,
-                "FHI": 3,
-                "CBI": 4
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
             }
         ]
     }
