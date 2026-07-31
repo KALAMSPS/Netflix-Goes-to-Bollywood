@@ -39,21 +39,7 @@ namespace secondWeek_Lu
             public TMP_Text mcqQuestionText;             // Text field for displaying the question
             public Button[] mcqAnswerButtons;            // Buttons for each answer option
             public AudioClip correctAnswerAudio;         // Audio to play on correct answer
-            public AudioClip wrongAnswerAudio;           // Audio to play on incorrect answer
-            //public MCQImpactData[] mcqImpactValues;
-
-            public bool requiresToggleMCQ;
-            public int toggleMCQID;
-            public GameObject toggleMCQBox;
-            public TMP_Text toggleQuestionText; // Add this to Dialogue class
-            public Toggle[] toggleOptions;
-            public Button toggleSubmitButton;
-            public AudioClip toggleClickAudio;
-
-
-            // **New Public Lists for Correct & Incorrect Toggles**
-            public List<Toggle> correctToggles = new List<Toggle>();
-            public List<Toggle> incorrectToggles = new List<Toggle>();
+            public AudioClip wrongAnswerAudio;
             public bool requires3OptionMCQ;
             public int mcq3ID;
             public GameObject mcq3Box;
@@ -122,15 +108,6 @@ namespace secondWeek_Lu
                         dialogue.mcq3Box.SetActive(false);
                     }
 
-
-                    if (dialogue.requiresToggleMCQ && dialogue.toggleMCQBox != null)
-                    {
-                        dialogue.toggleMCQBox.SetActive(false);
-                        if (dialogue.toggleSubmitButton != null)
-                        {
-                            dialogue.toggleSubmitButton.onClick.AddListener(() => OnToggleMCQSubmitted(dialogue));
-                        }
-                    }
                 }
                 if (playerController != null)
                     playerController.enabled = false;
@@ -149,7 +126,7 @@ namespace secondWeek_Lu
                 Debug.Log("Diary called!");
             }
         }
-    
+
         IEnumerator StartConversation()
         {
             while (currentDialogueIndex < dialogues.Length)
@@ -209,80 +186,6 @@ namespace secondWeek_Lu
                     }
                 }
 
-
-                if (isPlayer1Turn && dialogue.requiresToggleMCQ)
-                {
-                    if (dialogue.toggleMCQBox != null)
-                    {
-                        dialogue.toggleMCQBox.SetActive(true);
-
-                        if (dialogue.player1Animator != null)
-                            dialogue.player1Animator.Play("Idle"); // ✅ Add this line
-
-                        if (dialogue.player2Animator != null)
-                            dialogue.player2Animator.Play("Idle"); // Optional safety
-
-                        if (toggleQuestionDatabase.ContainsKey(dialogue.toggleMCQID))
-                        {
-                            ToggleQuestionData toggleData = toggleQuestionDatabase[dialogue.toggleMCQID];
-
-                            if (dialogue.toggleQuestionText != null)
-                            {
-                                dialogue.toggleQuestionText.text = toggleData.question;
-                            }
-                            else
-                            {
-                                Debug.LogWarning("Toggle question TMP_Text is not assigned.");
-                            }
-
-                            for (int i = 0; i < dialogue.toggleOptions.Length; i++)
-                            {
-                                if (i < toggleData.options.Length)
-                                {
-                                    Toggle toggle = dialogue.toggleOptions[i];
-
-                                    Transform labelTransform = toggle.transform.Find("Label");
-                                    if (labelTransform != null)
-                                    {
-                                        TMP_Text labelText = labelTransform.GetComponent<TMP_Text>();
-                                        if (labelText != null)
-                                        {
-                                            labelText.text = toggleData.options[i]; // Set the option text from JSON
-                                            Debug.Log($"Toggle {i} label set to: {toggleData.options[i]}");
-                                        }
-                                        else
-                                        {
-                                            Debug.LogError("TMP_Text missing on Toggle.Label");
-                                        }
-                                    }
-                                    else
-                                    {
-                                        Debug.LogError("No child named 'Label' found in toggle at index " + i);
-                                    }
-
-                                    toggle.tag = toggleData.correctIndices.Contains(i) ? "CorrectAnswer" : "Untagged";
-                                    toggle.gameObject.SetActive(true);
-                                }
-                                else
-                                {
-                                    dialogue.toggleOptions[i].gameObject.SetActive(false);
-                                }
-                            }
-
-
-
-                        }
-                        else
-                        {
-                            Debug.LogError("ToggleMCQ ID " + dialogue.toggleMCQID + " not found in database.");
-                        }
-                    }
-
-                    yield break;
-                }
-
-
-
                 yield return new WaitForSeconds(messageDelay);
 
                 if (!isPlayer1Turn)
@@ -338,6 +241,8 @@ namespace secondWeek_Lu
 
         void ShowSingleMCQ(Dialogue dialogue)
         {
+            Debug.Log("ShowSingleMCQ Start");
+            ResetSingleMCQ(dialogue);
             if (dialogue.player1Animator != null)
                 dialogue.player1Animator.Play("Idle");
 
@@ -401,6 +306,8 @@ namespace secondWeek_Lu
         }
         void Show3OptionMCQ(Dialogue dialogue)
         {
+            Debug.Log("Show3OptionMCQ Start");
+            Reset3OptionMCQ(dialogue);
             if (dialogue.player1Animator != null)
                 dialogue.player1Animator.Play("Idle");
 
@@ -615,6 +522,14 @@ namespace secondWeek_Lu
 
             foreach (var btn in dialogue.mcqAnswerButtons)
             {
+                Debug.Log("Button Name: " + (btn != null ? btn.name : "NULL"));
+
+                if (btn == null)
+                {
+                    Debug.LogError("Button NULL mila!");
+                    continue;
+                }
+
                 btn.interactable = false;
             }
 
@@ -756,8 +671,9 @@ namespace secondWeek_Lu
             if (mcqDatabase.TryGetValue(dialogue.mcq3ID, out var data))
             {
                 Button selectedButton = dialogue.mcq3AnswerButtons[data.correctIndex];
+                Debug.Log("Selected Button: " + selectedButton.name);
                 StopAllCoroutines();
-                StartCoroutine(HandleAnswerFeedback(selectedButton, true, dialogue, 0.1f, () =>
+                StartCoroutine(HandleAnswerFeedback3(selectedButton, true, dialogue, 0.1f, () =>
                 {
                     StartCoroutine(PerformPostAnswerActivityCorrect());
 
@@ -788,51 +704,7 @@ namespace secondWeek_Lu
             Downwards.SetActive(false);
             Debug.Log("✅ Post-answer activity finished.");
         }
-        public void OnToggleMCQSubmitted(Dialogue dialogue)
-        {
-            PlayAudio(dialogue.toggleClickAudio);
 
-            if (!toggleQuestionDatabase.TryGetValue(dialogue.toggleMCQID, out var toggleData))
-            {
-                Debug.LogError("ToggleMCQ ID not found in database.");
-                return;
-            }
-
-            List<int> selectedIndices = new List<int>();
-            for (int i = 0; i < dialogue.toggleOptions.Length; i++)
-            {
-                if (dialogue.toggleOptions[i].isOn)
-                {
-                    selectedIndices.Add(i);
-                }
-            }
-
-            bool isCorrect = selectedIndices.Count == toggleData.correctIndices.Count &&
-                             !selectedIndices.Except(toggleData.correctIndices).Any();
-            Debug.Log("");
-
-            if (isCorrect)
-            {
-                PerformCorrectPairSelection(dialogue);
-                GlobalDataManager.instance.AddSGI(toggleData.impact.SGI);
-                GlobalDataManager.instance.AddFHI(toggleData.impact.FHI);
-                GlobalDataManager.instance.AddCGI(toggleData.impact.CGI);
-                Debug.Log("gb100");
-
-                Debug.Log($"✅ Toggle Correct: SGI={toggleData.impact.SGI}, FHI={toggleData.impact.FHI}, CGI={toggleData.impact.CGI}");
-            }
-            else
-            {
-                ShowIncorrectSelection(dialogue);
-                Debug.Log("❌ Toggle Incorrect. No points awarded.");
-            }
-
-            dialogue.toggleMCQBox.SetActive(false);
-            isPlayer1Turn = false;
-
-            StopAllCoroutines();
-            StartCoroutine(StartConversation());
-        }
 
         public void PerformCorrectPairSelection(Dialogue dialogue)
         {
@@ -964,6 +836,84 @@ namespace secondWeek_Lu
         public class ToggleQuestionDataList
         {
             public List<ToggleQuestionData> toggleQuestions;
+        }
+
+        void ResetSingleMCQ(Dialogue dialogue)
+        {
+            Debug.Log("===== ResetSingleMCQ Called =====");
+
+            dialogue.mcqQuestionText.text = "";
+
+            foreach (Button btn in dialogue.mcqAnswerButtons)
+            {
+                if (btn == null)
+                {
+                    Debug.LogError("NULL Button mila");
+                    continue;
+                }
+
+                Debug.Log("Reset ho raha hai: " + btn.name);
+
+                btn.interactable = true;
+                btn.gameObject.SetActive(true);
+
+                Image img = btn.GetComponent<Image>();
+
+                if (img != null)
+                {
+                    img.color = Color.white;
+                    Debug.Log(btn.name + " color reset");
+                }
+
+                TMP_Text txt = btn.GetComponentInChildren<TMP_Text>();
+
+                if (txt != null)
+                {
+                    txt.text = "";
+                    Debug.Log(btn.name + " text reset");
+                }
+
+                btn.onClick.RemoveAllListeners();
+            }
+        }
+
+        void Reset3OptionMCQ(Dialogue dialogue)
+        {
+            Debug.Log("===== Reset3OptionMCQ Called =====");
+
+            dialogue.mcq3QuestionText.text = "";
+
+            foreach (Button btn in dialogue.mcq3AnswerButtons)
+            {
+                if (btn == null)
+                {
+                    Debug.LogError("NULL Button mila");
+                    continue;
+                }
+
+                Debug.Log("Reset ho raha hai: " + btn.name);
+
+                btn.interactable = true;
+                btn.gameObject.SetActive(true);
+
+                Image img = btn.GetComponent<Image>();
+
+                if (img != null)
+                {
+                    img.color = Color.white;
+                    Debug.Log(btn.name + " color reset");
+                }
+
+                TMP_Text txt = btn.GetComponentInChildren<TMP_Text>();
+
+                if (txt != null)
+                {
+                    txt.text = "";
+                    Debug.Log(btn.name + " text reset");
+                }
+
+                btn.onClick.RemoveAllListeners();
+            }
         }
     }
 }
