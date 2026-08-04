@@ -3616,5 +3616,926 @@
                 "CBI": 5
                 }
             ]
+        },
+        {
+        "id": 121,
+        "question":"Entering with premium pricing targeted at affluent, English-speaking urban consumers rather than the broader price-sensitive population reflects",
+        "options": [
+            "Beachhead/niche segment entry strategy.",
+            "Mass-market penetration pricing.",
+            "Cost leadership.",
+            "Blue ocean strategy."
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 122,
+        "question": "Jio's cheap 4G is transforming India's internet economics almost overnight.",
+        "options": [
+            "Immediately revise pricing/content strategy for the new mass market.",
+            "Continue the original premium urban approach.", 
+            "Begin limited experiments while mostly maintaining current approach."
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  6,
+                "FHI": -3,
+                "CBI":  3
+            },
+            {
+                "SGI": -4,
+                "FHI":  3,
+                "CBI": -2
+            },
+            {
+                "SGI":  2,
+                "FHI":  1,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "question":"Jio signing 100M subscribers in six months by drastically undercutting incumbent pricing illustrates:",
+        "options": [
+            "Vertical integration.",
+            "Disruptive pricing / market disruption.",
+            "Product differentiation.",
+            "Brand loyalty."
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 124,
+        "question":"Jio's cheap data is fueling explosive video-consumption growth.",
+        "options": [
+            "Wait for more certainty before committing.",
+            "Significantly increase local content investment now.", 
+            "Increase moderately, monitor closely."
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": -3,
+                "FHI":  3,
+                "CBI": -2
+            },
+            {
+                "SGI":  6,
+                "FHI": -4,
+                "CBI":  3
+            },
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "question":"Hastings said India's connectivity boom was something Netflix 'didn't see coming' and 'got lucky on' Should future market-entry strategy proactively track infrastructure trends rather than react after the fact?",
+        "options": [
+            "Yes — this should become deliberate strategy.",
+            "No, luck is acceptable.",
+            "Irrelevant",
+            "Only relevant to India."
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 126,
+        "question":"Your launch catalog has ~100 Bollywood titles.",
+        "options": [
+            "Expand Bollywood/Indian licensed content quickly.",
+            "Keep the modest slate, focus resources on longer-term originals.", 
+            "Balanced: moderate near-term licensing plus original development."
+ 
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI":  5,
+                "FHI": -3,
+                "CBI":  3
+            },
+            {
+                "SGI":  1,
+                "FHI":  2,
+                "CBI":  2
+            },
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  4
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "question":"Sizing India's 'next 100 million' opportunity off its 1.3 billion population reflects:",
+        "options": [
+            "Vertical integration",
+            "Cost leadership",
+            "Blue ocean elimination",
+            "Total addressable market (TAM) framing"
+        ],
+        "correctIndex": 3,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 128,
+        "question":"India has ~155M pay-TV subscribers in 2017.",
+        "options": [
+            "Frame pricing around 'cheaper than a movie ticket' ",
+            "Frame around being cheaper than cable/pay-TV.", 
+            "Use both framings in different contexts."
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  4,
+                "FHI":  0,
+                "CBI":  4
+            },
+            {
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  1
+            },
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "question":"Comparing your price to a single movie ticket rather than a monthly cable bill is:",
+        "options": [
+            "Anchoring / reference-price framing.",
+            "Cost-plus pricing",
+            "Vertical integration",
+            "Price discrimination"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 130,
+        "question":"Room debrief: commit publicly to aggressive long-term India investment, or stay low-profile while you learn more?",
+        "options": [
+            "Commit publicly to aggressive long-term investment.",
+            "Stay low-profile.", 
+            "Signal moderate interest without firm commitments."
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  5,
+                "FHI": -2,
+                "CBI":  5 
+            },
+            {
+                "SGI": -2,
+                "FHI":  2,
+                "CBI": -2
+            },
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "question":"Respond to intensely price-sensitive competition.",
+        "options": [
+            "Hold firm on premium-only pricing.",
+            "Introduce the cheaper mobile-only plan.", 
+            "Offer a modest discount on existing plans instead."
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": -5,
+                "FHI":  3,
+                "CBI":  2
+            },
+            {
+                "SGI":  7,
+                "FHI": -3,
+                "CBI":  2
+            },
+            {
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "question":"Offering a lower-priced, feature-restricted tier alongside full-featured premium, without abandoning premium revenue, is:",
+        "options": [
+            "Cost leadership.",
+            "Vertical integration.",
+            "Price discrimination / tiered product segmentation.",
+            "Horizontal diversification."
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 133,
+        "question":"Hotstar offers 80%+ free, ad-supported content.",
+        "options": [
+            "Maintain the all-subscription, no-ads model even in India.",
+            "Adopt an ad-supported freemium model for India.", 
+            "Offer a limited free trial, no ongoing free tier."
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  1,
+                "FHI": -2,
+                "CBI":  7
+            },
+            {
+                "SGI":  6,
+                "FHI":  4,
+                "CBI": -7
+            },
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  3
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "question":"A freemium model where most content is free (ad-supported), with only premium content paywalled, is designed to maximize:",
+        "options": [
+            "User acquisition/reach over near-term per-user monetization.",
+            "Vertical integration",
+            "Cost leadership",
+            "Currency hedging."
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 135,
+        "question":"Hotstar draws 11M concurrent viewers on live cricket",
+        "options": [
+            "Acquire sports streaming rights for India specifically.",
+            "Continue avoiding sports, consistent with global boundaries.", 
+            "Explore a limited non-live sports documentary angle."
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  5,
+                "FHI": -6,
+                "CBI": -5
+            },
+            {
+                "SGI":  1,
+                "FHI":  2,
+                "CBI":  6
+            },
+            {
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  3
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "question":"Maintaining a consistent 'no live sports' policy globally, even when a rival's success is built on it, reflects:",
+        "options": [
+            "Cost leadership",
+            "Vertical integration",
+            "Market penetration",
+            "Global strategic consistency / brand discipline."
+        ],
+        "correctIndex": 3,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+                }
+            ]
+        },
+        {
+        "id": 137,
+        "question":"Mobile plan feature restrictions",
+        "options": [
+            "Restrict the mobile plan strictly to mobile/SD.",
+            "Allow flexibility (e.g., occasional TV casting).", 
+            "Allow limited casting only during a promo period."
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  2,
+                "FHI":  4,
+                "CBI":  2
+            },
+            {
+                "SGI":  4,
+                "FHI": -4,
+                "CBI": -1
+            },
+            {
+                "SGI":  3,
+                "FHI": -1,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "question":"Deliberately limiting a low-cost plan's features to differentiate it from premium tiers prevents:",
+        "options": [
+            "Cannibalization of higher-margin subscription tiers.",
+            "Vertical integration risk",
+            "Regulatory risk",
+            "Currency exposure"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 139,
+        "question":"Amazon bundles video with Prime shipping at a flat $14.33/year.",
+        "options": [
+            "Explore a bundled offering with a local partner.",
+            "Maintain a stand-alone video-only subscription.", 
+            "Explore a limited pilot bundle in one city/segment."
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  4,
+                "FHI": -2,
+                "CBI": -3
+            },
+            {
+                "SGI":  1,
+                "FHI":  2,
+                "CBI":  6
+            },
+            {
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "question":"Given 80%+ of Indian users churn through video apps within a week, does price-based acquisition (the mobile-only plan) solve retention, or only adoption?",
+        "options": [
+            "Fully solves both",
+            "Primarily solves adoption; retention still depends on content relevance/quality.",
+            "Irrelevant to retention",
+            "Price affects neither"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 141,
+        "question":"Regional-language investment level.",
+        "options": [
+            "Ramp up significantly in Hindi and regional-language originals.",
+            "Continue prioritizing English/global content", 
+            "Moderate increase in regional investment, gradual pacing."
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  7,
+                "FHI": -4,
+                "CBI":  4
+            },
+            {
+                "SGI": -4,
+                "FHI":  2,
+                "CBI": -3
+
+            },
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "question":"Committing $420M (up sixfold from $70M) to a single market's local content reflects:",
+        "options": [
+            "Localized content investment as a market-entry accelerant.",
+            "Vertical integration",
+            "Cost leadership",
+            "Blue ocean elimination"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 143,
+        "question":"ZEE5 already covers 11+ Indian languages.",
+        "options": [
+            "Try to match broad language breadth immediately.",
+            "Focus on the 2–3 highest-population regional languages first .", 
+            "Cover only Hindi initially, expand later"
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  4,
+                "FHI": -5,
+                "CBI": -2
+            },
+            {
+                "SGI":  3,
+                "FHI":  2,
+                "CBI":  4
+
+            },
+            {
+                "SGI":  1,
+                "FHI":  3,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "question":"Prioritizing the highest-population regional languages first rather than spreading thin immediately reflects:",
+        "options": [
+            "Blanket standardization.",
+            "Cost leadership",
+            "Prioritized/sequenced segmentation strategy.",
+            "Vertical integration"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 145,
+        "question":"ALTBalaji differentiates with edgy, erotic regional content.",
+        "options": [
+            "Maintain consistent global content standards even in India.",
+            "Allow Netflix India originals to explore similarly edgy content.", 
+            "Allow edgier content only in a clearly labeled, opt-in category"
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI":  7
+            },
+            {
+                "SGI":  3,
+                "FHI": -1,
+                "CBI": -6
+
+            },
+            {
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 146,
+        "question":"Maintaining consistent content standards globally, even when local rivals differentiate through edgier content, reflects:",
+        "options": [
+            "Global brand consistency / strategic focus",
+            "Cost leadership",
+            "Vertical integration",
+            "Market penetration"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 147,
+        "question":"India production infrastructure approach.",
+        "options": [
+            "Build in-house India production infrastructure from scratch.",
+            "Partner initially, build in-house capability over time.", 
+            "Partner with existing local production houses (faster, lower risk)."
+ 
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI":  2,
+                "FHI": -5,
+                "CBI":  5
+            },
+            {
+                "SGI":  4,
+                "FHI":  0,
+                "CBI":  4
+
+            },
+            {
+                "SGI":  4,
+                "FHI":  2,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 148,
+        "question":"Partnering with established local production houses rather than building all capability from scratch leverages the partner's:",
+        "options": [
+            "Vertical integration",
+            "Local market knowledge and production capability",
+            "Cost leadership",
+            "Currency hedging"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
+        },
+        {
+        "id": 149,
+        "question":"Indian audiences increasingly live in Tier 2/3 cities, not just metros.",
+        "options": [
+            "Invest specifically in Tier 2/3-tailored content/marketing",
+            "Continue concentrating on large metro audiences",
+            "Begin modest Tier 2/3 pilots while maintaining metro focus"
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  6,
+                "FHI": -2,
+                "CBI":  3
+            },
+            {
+                "SGI": -3,
+                "FHI":  2,
+                "CBI": -2
+
+            },
+            {
+                "SGI":  3,
+                "FHI":  1,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 150,
+        "question":"Does heavy regional investment,sequenced language prioritization, consistent global standards, and Tier 2/3 expansion collectively represent a credible path to 'the next 100 million?'.",
+        "options": [
+            "Yes, if execution matches the scale of the ambition.",
+            "No, guarantees failure.",
+            "Irrelevant to that goal.",
+            "Only relevant to metro markets."
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+                }
+            ]
         }
-    ]
+]
+  
