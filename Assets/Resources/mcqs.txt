@@ -44,7 +44,7 @@
         "impacts": [
             {
                 "SGI": 8,
-                "FHI": -6,
+                "FHI":-6,
                 "CBI": 0
             },
             {
@@ -96,21 +96,21 @@
         "id": 4,
         "question": "Retail sale vs. rental subscription, given Amazon/Wal-Mart's retail scale?",
         "options": [
-            "Compete in retail against Amazon/Wal-Mart",
             "Pivot to rental subscription",
+            "Compete in retail against Amazon/Wal-Mart",
             "Do both simultaneously"
         ],
         "correctIndex": 1,
         "impacts": [
             {
-                "SGI": -6,
-                "FHI": -5,
-                "CBI": -4
+                "SGI":  7,
+                "FHI":  3,
+                "CBI":  6
             },
             {
-                "SGI": 7,
-                "FHI": 3,
-                "CBI": 6
+                "SGI":-6,
+                "FHI":-5,
+                "CBI":-4
             },
             {
                 "SGI": 2,
@@ -123,22 +123,22 @@
         "id": 5,
         "question": "Does launching lean (30 employees, 925 titles) reflect disciplined focus, or a gap to fix immediately?",
         "options": [
-            "Disciplined focus",
             "Resource constraint to fix now",
+            "Disciplined focus",
             "Irrelevant",
             "A mistake"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "impacts": [
             {
                 "SGI": 0,
                 "FHI": 0,
-                "CBI": 5
+                "CBI": 0
             },
             {
                 "SGI": 0,
                 "FHI": 0,
-                "CBI": 0
+                "CBI": 5
             },
             {
                 "SGI": 0,
@@ -243,32 +243,32 @@
         "id": 9,
         "question": "A focused value proposition instead of serving every segment is:",
         "options": [
-            "Focus/differentiation strategy (Porter)",
+            "Horizontal integration",
             "Cost leadership",
             "Blue-ocean elimination ",
-            "Horizontal integration"
+            "Focus/differentiation strategy (Porter)"
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "impacts": [
             {
                 "SGI": 0,
                 "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
                 "CBI": 5
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
             }
         ]
     },
@@ -330,27 +330,27 @@
         "id": 12,
         "question": "Blockbuster's failure to see Netflix as a threat despite 20M active users is:",
         "options": [
-            "Incumbent inertia / disruptive-innovation blind spot",
-            "First-mover advantage",
             "Vertical integration",
+            "First-mover advantage",
+            "Incumbent inertia / disruptive-innovation blind spot",
             "Economies of scale"
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "impacts": [
             {
                 "SGI": 0,
                 "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
                 "CBI": 5
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
             },
             {
                 "SGI": 0,
@@ -361,13 +361,13 @@
     },
     {
         "id": 13,
-        "question": "Publicly campaign against late fees",
+        "question": "Blockbuster depends on late fees for revenue. Do you attack this publicly?",
         "options": [
             "Publicly campaign against late fees",
             "Stay quiet, avoid retaliation",
             "Use it selectively in key growth markets"
         ],
-        "correctIndex": 1,
+        "correctIndex":1 ,
         "impacts": [
             {
                 "SGI":  5,
@@ -450,20 +450,20 @@
         "id": 16,
         "question": "Blockbuster's 2010 bankruptcy illustrates the risk of:",
         "options": [
-            "Failing to adapt the business model to a changing market",
             "Overexpansion",
+            "Failing to adapt the business model to a changing market",
             "Currency risk",
             "Regulatory capture"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 5,
+                "SGI": 0,
                 "FHI": 0,
                 "CBI": 0
             },
             {
-                "SGI": 0,
+                "SGI": 5,
                 "FHI": 0,
                 "CBI": 0
             },
@@ -490,7 +490,7 @@
         "correctIndex": 1,
         "impacts": [
             {
-               "SGI": -5,
+               "SGI":  -5,
                 "FHI": -6,
                 "CBI": -4
             },
@@ -510,25 +510,25 @@
         "id": 18,
         "question": "Disney's costly hardware failing while Netflix's software succeeded shows the importance of:",
         "options": [
-            "Minimizing adoption friction",
-            "Brand loyalty",
             "Patents",
+            "Brand loyalty",
+            "Minimizing adoption friction",
             "Vertical integration"
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "impacts": [
             {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
                 "SGI": 5,
-                "FHI": 0,
-                "CBI": 0
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
-            },
-            {
-                "SGI": 0,
                 "FHI": 0,
                 "CBI": 0
             },
@@ -570,32 +570,32 @@
         "id": 20,
         "question": "Was walking away from Blockbuster and betting on independent streaming, without certainty broadband would mature in time, a correct application of \"framing decisions as bets\"?",
         "options": [
-            "Yes",
+            "Only applies to hiring",
             "No, should've waited for certainty",
             "Irrelevant concept",
-            "Only applies to hiring"
+            "Yes"
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "impacts": [
             {
                 "SGI": 0,
                 "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
                 "CBI": 5
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
-            },
-            {
-                "SGI": 0,
-                "FHI": 0,
-                "CBI": 0
             }
         ]
     },
@@ -750,20 +750,20 @@
         "id": 26,
         "question": "Launching an imperfect product early to learn from real users reflects",
         "options": [
-            "Lean/iterative product development",
             "Six Sigma",
+            "Lean/iterative product development",
             "Just-in-time manufacturing",
             "Total quality management"
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "impacts": [
             {
-                "SGI": 5,
+                "SGI": 0,
                 "FHI": 0,
                 "CBI": 0
             },
             {
-                "SGI": 0,
+                "SGI": 5,
                 "FHI": 0,
                 "CBI": 0
             },
@@ -870,9 +870,162 @@
         "id": 30,
         "question": "Hastings will later say error-tolerance suits a creative business. Does launching streaming on imperfect broadband, prioritizing speed over certainty, align with that?",
         "options": [
-            "Yes",
             "No, only applies to hiring",
+            "Yes",
             "No, contradicts it",
+            "Irrelevant"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "question": "Adding process after every mistake, until \"only dummies wanted to work there,\" illustrates:",
+        "options": [
+            "Process ossification / bureaucratic drift",
+            "Vertical integration",
+            "First-mover advantage",
+            "Diversification"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "question": "How do you execute the layoffs?",
+        "options": [
+            "Cut broadly/equally across levels",
+            "Cut to retain only the most talented, regardless of level",
+            "Delay layoffs, hope for recovery"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": -3,
+                "FHI":  3,
+                "CBI": -4
+            },
+            {
+                "SGI":  2,
+                "FHI":  5,
+                "CBI":  7 
+            },
+            {
+                "SGI": -5,
+                "FHI": -6,
+                "CBI": -2
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "question": "Noticing more work got done with fewer, better people afterward illustrates:",
+        "options": [
+            "Talent density ",
+            "Diminishing returns",
+            "Economies of scale",
+            "Groupthink"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "question":"Do you formalize this into an ongoing hiring/firing philosophy, or treat it as a one-off crisis response?",
+        "options": [
+            "Formalize and keeper test, talent density",
+            "One-off, revert to standard HR",
+            "Partially formalize"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  3,
+                "FHI":  2,
+                "CBI":  8
+            },
+            {
+                "SGI":  0,
+                "FHI":  0,
+                "CBI": -5 
+            },
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "question": "Best employees are \"10x more effective\" on creative work. Should hiring budget favor fewer, highly-paid top performers or more average-paid staff?",
+        "options": [
+            "Fewer, highly-paid top performers ",
+            "More average staff",
+            "Equal split",
             "Irrelevant"
         ],
         "correctIndex": 0,
@@ -898,5 +1051,2570 @@
                 "CBI": 0
             }
         ]
-    }
-]
+    },
+    {
+        "id": 36,
+        "question": "Productivity/morale rise post-layoff. Reinvest the savings in pay, or bank them as reserves?",
+        "options": [
+            "Reinvest in higher pay for remaining talent",
+            "Bank savings, shore up reserves",
+            "Split reinvestment/reserves"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  3,
+                "FHI": -3,
+                "CBI":  5
+            },
+            {
+                "SGI": -2,
+                "FHI":  6,
+                "CBI":  0 
+            },
+            {
+                "SGI":  1,
+                "FHI":  2,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "question": "Keeping mediocre performers \"demotivates leaders and causes top performers to quit\" reflects:",
+        "options": [
+            "Groupthink",
+            "Diminishing marginal",
+            "Talent-density principle",
+            "Peter Principle"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "question":"Concentrate hiring budget on fewer elite creative/content roles, or spread broadly across average operational roles?",
+        "options": [
+            "Concentrate on elite roles",
+            "Spread broadly",
+            "Balanced mix"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  5,
+                "FHI": -2,
+                "CBI":  5
+            },
+            {
+                "SGI": -3,
+                "FHI":  3,
+                "CBI": -3 
+            },
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "question":"12% annual turnover (near industry benchmark) coexisting with an aggressive \"keeper test\" suggests:",
+        "options": [
+            "Well-designed high-performance cultures don't necessarily raise turnover",
+            "They always increase turnover",
+            "Turnover is irrelevant",
+            "Only affects juniors"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "question":"Present the emerging culture as a living document to keep revising, or a fixed, permanent rulebook?",
+        "options": [
+            "Evolving, revisited over time -aligned",
+            "Fixed permanent rules",
+            "Don't formalize in writing at all"
+        ],
+        "correctIndex":1,
+        "impacts": [
+            {
+                "SGI":  1,
+                "FHI":  0,
+                "CBI":  6
+            },
+            {
+                "SGI":  0,
+                "FHI":  0,
+                "CBI": -5 
+            },
+            {
+                "SGI": -2,
+                "FHI":  1,
+                "CBI": -6
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "question":"Attract top talent by paying market maximum with no bonuses, or use standard bonus structures to control costs?",
+        "options": [
+            "Pay max, no annual bonuses aligned",
+            "Standard bonus/incentive structure" ,
+            "Modest premium salary + smaller bonuses"
+        ],
+        "correctIndex":1,
+        "impacts": [
+            {
+                "SGI":  6,
+                "FHI": -5,
+                "CBI":  6
+            },
+            {
+                "SGI": -2,
+                "FHI":  4,
+                "CBI": -3
+            },
+            {
+                "SGI":  2,
+                "FHI":  1,
+                "CBI":  0
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "question":"Paying a good-faith estimate of an employee's maximum market value, rather than standardized pay bands, is an example of:",
+        "options": [
+            "Cost-plus pricing",
+            "Price discrimination",
+            "Vertical integration",
+            "Efficiency wage theory"
+        ],
+        "correctIndex": 3,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "question":"Keep monthly stock-option vesting (no \"golden handcuffs\"), or use a standard 4-year cliff to retain staff longer?",
+        "options": [
+            "Monthly vesting -aligned",
+            "Standard 4-year cliff" ,
+            "2-year partial cliff compromise"
+        ],
+        "correctIndex":1,
+        "impacts": [
+            {
+                "SGI":  3,
+                "FHI": -2,
+                "CBI":  6
+            },
+            {
+                "SGI": -2,
+                "FHI":  3,
+                "CBI": -4
+            },
+            {
+                "SGI":  0,
+                "FHI":  1,
+                "CBI":  0
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "question":"Removing long vesting cliffs, trusting employees to stay for the work itself, reflects:",
+        "options": [
+            "Cost leadership",
+            "Freedom & responsibility",
+            "Transparency",
+            "Risk aversion"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "question":"Share subscriber numbers and executive salaries broadly with all employees, or keep them confidential to leadership?",
+        "options": [
+            "Share broadly -aligned",
+            "Keep confidential" ,
+            "Share selectively by department"
+        ],
+        "correctIndex":1,
+        "impacts": [
+            {
+                "SGI":  2,
+                "FHI": -1,
+                "CBI":  7
+            },
+            {
+                "SGI": -1,
+                "FHI":  2,
+                "CBI": -5
+            },
+            {
+                "SGI":  0,
+                "FHI":  0,
+                "CBI": -1
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "question":"Widely sharing financial/strategic information so employees can act without micromanagement reflects:",
+        "options": [
+            "Transparency",
+            "Vertical integration",
+            "Cost leadership",
+            "Diversification"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "question":"For major decisions, require \"farming for dissent\" (solicit views, no consensus needed), or require formal committee approval?",
+        "options": [
+            "Farm for dissent -aligned",
+            "Formal committee approval",
+            "Sign-off only above a spending threshold"
+        ],
+        "correctIndex":1,
+        "impacts": [
+            {
+                "SGI":  4,
+                "FHI":  0,
+                "CBI":  6
+            },
+            {
+                "SGI": -3,
+                "FHI":  2,
+                "CBI": -4
+            },
+            {
+                "SGI":  1,
+                "FHI":  2,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "question":"Soliciting broad input without requiring group agreement, unlike consensus-building, illustrates:",
+        "options": [
+            "Groupthink",
+            "Farming for dissent",
+            "Delphi method",
+            "Committee governance"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "question":"Post the Culture Deck publicly online so candidates can self-select, or keep it internal to avoid competitors copying it?",
+        "options": [
+            "Post publicly -aligned",
+            "Keep internal only" ,
+            "Share only with recruiters"
+        ],
+        "correctIndex":1,
+        "impacts": [
+            {
+                "SGI":  5,
+                "FHI":  0,
+                "CBI":  5
+            },
+            {
+                "SGI": -2,
+                "FHI":  1,
+                "CBI": -2
+            },
+            {
+                "SGI":  0,
+                "FHI":  0,
+                "CBI": -1
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "question":"The deck says hiring is \"50% cultural fit, 50% hard skills\" vs. industry's \"80% hard skills.\" Is this consistent with the \"no brilliant jerks\" philosophy?",
+        "options": [
+            "Yes",
+            "No",
+            "Irrelevant",
+            "Only for executives"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "question":"Frame the 2017 diversity update as a fundamental values addition, or a PR move to deflect industry criticism?",
+        "options": [
+            "Fundamental, genuinely embedded -aligned",
+            "PR-driven update" ,
+            "Delay, wait for industry consensus"
+        ],
+        "correctIndex":1,
+        "impacts": [
+            {
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  7
+            },
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI": -5
+            },
+            {
+                "SGI": -2,
+                "FHI":  0,
+                "CBI": -4
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "question":"Telling employees to \"be curious about how different backgrounds affect us\" rather than pretending differences don't exist reflects a shift from:",
+        "options": [
+            "Meritocracy denial",
+            "Affirmative-action quotas",
+            "Assimilation strategy",
+            "Colorblind diversity to identity-conscious inclusion"
+        ],
+        "correctIndex": 3,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "question":"Your comms head uses a racial slur in a meeting. Fire immediately, or issue a warning/suspension first given the high-trust culture?",
+        "options": [
+            "Fire immediately -aligned",
+            "Warning/suspension only", 
+            "Private reprimand, no public action"
+        ],
+        "correctIndex":1,
+        "impacts": [
+            {
+                "SGI":  0,
+                "FHI": -1,
+                "CBI":  8
+            },
+            {
+                "SGI": -1,
+                "FHI":  1,
+                "CBI": -7
+            },
+            {
+                "SGI": -2,
+                "FHI":  1,
+                "CBI": -6
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "question":"Netflix's \"no rules\" culture still keeps strict policies for \"edge cases\" like harassment and insider trading. This shows freedom-based cultures:",
+        "options": [
+            "Rely entirely on trust, no exceptions",
+            "Have zero rules at all",
+            "Still need narrow, non-negotiable guardrails",
+            "Apply rules only to executives"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "question":"After firing him, do you publicly and personally apologize for not acting sooner, or let HR communicate quietly?",
+        "options": [
+            "Personal, public apology -aligned",
+            "HR handles it quietly" ,
+            "No public comment"
+        ],
+        "correctIndex":1,
+        "impacts": [
+            {
+                "SGI":  1,
+                "FHI":  0,
+                "CBI":  6
+            },
+            {
+                "SGI": -1,
+                "FHI":  1,
+                "CBI": -4
+            },
+            {
+                "SGI": -3,
+                "FHI":  0,
+                "CBI": -6
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "question":"Publicly owning a leadership failure (\"we should have acted sooner\") applies which culture value?",
+        "options": [
+            "Candor",
+            "Transparency",
+            "Freedom & responsibility",
+            "Talent density"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "question":"Apply the \"keeper test\" uniformly at all levels, or give junior/newer employees more runway?",
+        "options": [
+            "Apply uniformly",
+            "Only for senior roles" ,
+            "Avoid entirely for juniors"
+        ],
+        "correctIndex":1,
+        "impacts": [
+            {
+                "SGI":  3, 
+                "FHI":  3,
+                "CBI":  4
+            },
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI":  2
+            },
+            {
+                "SGI": -2,
+                "FHI": -1,
+                "CBI": -3
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "question":"Letting go (with 4-9 months severance) employees a manager wouldn't fight to keep, rather than running long performance-improvement plans, favors:",
+        "options": [
+            "Progressive discipline",
+            "Rapid recovery / clean exits",
+            "Tenure protection",
+            "Seniority-based retention"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "question":"As press criticizes \"radical transparency and blunt firings,\" do you publicly defend the model, soften your language, or change the practice?",
+        "options": [
+            "Defend openly -aligned",
+            "Soften language, keep practice",
+            "Change the practice under press pressure"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  6
+            },
+            {
+                "SGI":  0,
+                "FHI":  1,
+                "CBI": -3
+            },
+            {
+                "SGI": -2,
+                "FHI":  2,
+                "CBI": -6
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "question":"Do this session's choices - talent-density layoffs, radical transparency, firing for a slur, uniform keeper test - collectively reinforce the \"dream team, not a family\" philosophy?",
+        "options": [
+            "Yes, consistent",
+            "No, contradicts it",
+            "Irrelevant",
+            "Only applies to Hollywood talent"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "question":"Licensing established hits to bootstrap a new subscription platform is:",
+        "options": [
+            "Content leverage / borrowed-equity strategy",
+            "Vertical integration",
+            "Blue ocean strategy",
+            "Horizontal diversification"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "question":"Media companies now see you as a rival.",
+        "options": [
+            "Lock in more licensing deals aggressively now",
+            "Slow licensing, invest early in originals to cut dependency",
+            "Maintain licensing while quietly building originals"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  6,
+                "FHI": -4,
+                "CBI": -2
+            },
+            {
+                "SGI":  2,
+                "FHI": -2,
+                "CBI":  6
+            },
+            {
+                "SGI":  4,
+                "FHI":  0,
+                "CBI":  3
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "question":"Relying on content owned by potential competitors exposes Netflix to:",
+        "options": [
+            "First-mover advantage",
+            "Supplier bargaining power/channel dependency",
+            "Economies of scope",
+            "Network effect"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "question":"~40% of viewing comes from AT&T/Disney/Comcast-owned content; these firms are consolidating via M&A.",
+        "options": [
+            "Let licenses lapse, redirect to originals",
+            "Pay higher renewal prices to keep it",
+            "Renew only the most-viewed titles"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": -2,
+                "FHI":  2,
+                "CBI":  7
+            },
+            {
+                "SGI":  3,
+                "FHI": -7,
+                "CBI": -2
+            },
+            {
+                "SGI":  2,
+                "FHI": -2,
+                "CBI":  3
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "question":"Is depending on licensed content from direct competitors sustainable long-term?",
+        "options": [
+            "Irrelevant",
+            "Yes, permanently sustainable",
+            "No-must reduce this dependency",
+            "Only an international issue"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "question":"Choose your licensing deal structure.",
+        "options": [
+            "Multi-year exclusive deals (costly, more certain)",
+            "Short-term non-exclusive deals (cheap, riskier)",
+            "Exclusive only for top-performing titles"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI":  3,
+                "FHI": -5,
+                "CBI":  2
+            },
+            {
+                "SGI":  1,
+                "FHI":  3,
+                "CBI": -3
+            },
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "question":"~50% shrinkage of licensed catalog (2014-2019) illustrates:",
+        "options": [
+            "Horizontal diversification",
+            "Vertical integration into content production",
+            "Market penetration",
+            "Cost leadership"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "question":"Hulu has direct access to its parents' libraries.",
+        "options": [
+            "Match content breadth via more licensing",
+            "Differentiate via curation/quality over breadth", 
+            "Try both simultaneously"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  4,
+                "FHI": -4,
+                "CBI": -2
+            },
+            {
+                "SGI":  1,
+                "FHI":  2,
+                "CBI":  6
+            },
+            {
+                "SGI":  3,
+                "FHI": -3,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "question":"Choosing a smaller, curated catalog over maximum breadth reflects:",
+        "options": [
+            "Cost leadership",
+            "Economies of scale",
+            "Blue ocean elimination",
+            "Focus/differentiation strategy"
+        ],
+        "correctIndex": 3,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "question":"Room debrief: how urgently do you commit to original-content capability?",
+        "options": [
+            "Immediately and heavily",
+            "Wait and see how licensing landscape evolves",
+            "Commit moderately, scale gradually"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":2, 
+                "FHI":-3,
+                "CBI":7
+            },
+            {
+                "SGI":-3,
+                "FHI":2,
+                "CBI":-4
+            },
+            {
+                "SGI":1,
+                "FHI":1,
+                "CBI":3
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "question":"Commissioning approach for House of Cards.",
+        "options": [
+            "Require a traditional pilot first",
+            "Straight-to-series, full commitment",
+            "Order a shortened first season"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": -3,
+                "FHI":  3,
+                "CBI": -3
+            },
+            {
+                "SGI":  6,
+                "FHI": -4,
+                "CBI":  7
+            },
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "question":"Skipping the pilot process to offer full-season commitments upfront, attracting top talent, is:",
+        "options": [
+            "Vertical integration",
+            "Talent-acquisition/deal-structure innovation",
+            "Cost leadership",
+            "Product bundling"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "question":"Release strategy for the first season",
+        "options": [
+            "Release the full season at once",
+            "Weekly release like traditional TV",
+            "Half the season, then weekly"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  7,
+                "FHI": -2,
+                "CBI":  6
+            },
+            {
+                "SGI": -4,
+                "FHI":  2,
+                "CBI": -4
+            },
+            {
+                "SGI":  0,
+                "FHI":  0,
+                "CBI":  0
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "question":"Releasing all episodes at once, breaking weekly-broadcast norms, changes:",
+        "options": [
+            "Content distribution/consumption model",
+            "Production cost structure",
+            "Regulatory compliance",
+            "Talent compensation"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "question":"Content deal financial structure.",
+        "options": [
+            "Traditional partial-cost model, share rights",
+            "Adopt \"cost-plus\" (full cost + ~30% premium, keep full global rights)", 
+            "Cost-plus only for flagship titles"    
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": -2,
+                "FHI":  5,
+                "CBI": -3
+            },
+            {
+                "SGI":  4,
+                "FHI": -6,
+                "CBI":  6
+            },
+            {
+                "SGI":  2,
+                "FHI": -2,
+                "CBI":  3
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "question":"Paying full cost + premium for full global rights, forgoing shared syndication upside, trades off:",
+        "options": [
+            "Debt vs. equity financing",
+            "Higher upfront cost vs. full long-term IP ownership",
+            "Price discrimination",
+            "Horizontal diversification"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "question":"Payment timing to producers",
+        "options": [
+            "Stretch payments over several years",
+            "Pay upfront for better producer terms", 
+            "Partial upfront, remainder stretched"    
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  2,
+                "FHI":  5,
+                "CBI":  2
+            },
+            {
+                "SGI":  3,
+                "FHI": -6,
+                "CBI":  1
+            },
+            {
+                "SGI":  2,
+                "FHI":  1,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "question":"Structuring payments over years rather than upfront, while still committing to big bets, is:",
+        "options": [
+            "Cost leadership",
+            "Vertical integration",
+            "Cash-flow/financing management in content investment",
+            "Product differentiation"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "question":"House of Cards succeeds. How do you scale?",
+        "options": [
+            "Scale moderately, genre by genre",
+            "Scale straight-to-series broadly and immediately ", 
+            "Prove the model with a few more flagship titles first"    
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  3
+            },
+            {
+                "SGI":  6,
+                "FHI": -5,
+                "CBI":  3
+            },
+            {
+                "SGI":  2,
+                "FHI":  2,
+                "CBI":  5
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "question":"Sarandos said \"become HBO faster than HBO can become us.\" Does a $100M pilot-free bet reflect that ambition?",
+        "options": [
+            "Yes, exactly",
+            "No, too conservative",
+            "Irrelevant to the quote",
+            "Only applies to marketing"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "question":"Production infrastructure strategy.",
+        "options": [
+            "Build an in-house studio",
+            "Continue relying on outside studios", 
+            "Own key IP, outsource production execution"    
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  3,
+                "FHI": -5,
+                "CBI":  7
+            },
+            {
+                "SGI":  1,
+                "FHI":  3,
+                "CBI": -3
+            },
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  4
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "question":"Shifting from licensing outside productions to owning IP and in-house production is a move toward:",
+        "options": [
+            "Horizontal diversification",
+            "Vertical integration",
+            "Market penetration",
+            "Price discrimination"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "question":"How do you fund the rise to $17B+/year in content spend?",
+        "options": [
+            "Fund via long-term debt",
+            "Slow other investment, self-fund from cash flow",
+            "Moderate debt + reduced other spend"    
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  6,
+                "FHI": -7,
+                "CBI":  2
+            },
+            {
+                "SGI": -4,
+                "FHI":  6,
+                "CBI":  0
+            },
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "question":"Funding negative-FCF growth primarily through debt rather than equity/retained earnings reflects:",
+        "options": [
+            "Growth-stage financing prioritizing market share over near-term profit",
+            "Bankruptcy-risk avoidance",
+            "Dividend policy",
+            "Currency hedging"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "question":"Non-English content investment strategy",
+        "options": [
+            "Balanced investment across languages",
+            "Focus mainly on English-language content", 
+            "Invest heavily in non-English originals (e.g., How to Sell Drugs Online, The Rain)"
+ 
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  3
+            },
+            {
+                "SGI": -2,
+                "FHI":  2,
+                "CBI": -3
+            },
+            {
+                "SGI":  7,
+                "FHI": -3,
+                "CBI":  5
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "question":"Producing local-language originals across dozens of countries rather than only exporting English content is:",
+        "options": [
+            "Localization / multi-domestic strategy",
+            "Global standardization strategy",
+            "Export-only strategy",
+            "Franchising strategy"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "question":"Dubbing investment decision.",
+        "options": [
+            "Rely on subtitles only, save cost",
+            "Invest significantly in higher-quality dubbing", 
+            "Dub only top-tier titles"
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": -2,
+                "FHI":  3,
+                "CBI": -2
+            },
+            {
+                "SGI":  5,
+                "FHI": -2,
+                "CBI":  4
+            },
+            {
+                "SGI":  2,
+                "FHI":  1,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "question":"Investing in dubbing quality to reduce friction for foreign-language content addresses:",
+        "options": [
+            "Currency risk",
+            "Tariff barriers",
+            "Cultural/linguistic distance in international market entry",
+            "Regulatory barriers"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "question":"Disney+, HBO Max, Peacock, Apple TV+ all launch with deep pockets. Your response?",
+        "options": [
+            "Increase content spend further to stay ahead",
+            "Shift focus to efficiency/profitability",
+            "Maintain spend, differentiate rather than just out-spend"
+ 
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI":  5,
+                "FHI": -6,
+                "CBI":  2
+            },
+            {
+                "SGI": -3,
+                "FHI":  6,
+                "CBI":  1
+            },
+            {
+                "SGI":  2,
+                "FHI":  1,
+                "CBI":  5
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "question":"Does building an in-house studio, debt-funded spend, and heavy local-language investment support \"becoming HBO faster than HBO can become us\" — or risk an over-leveraged, unfocused content machine?",
+        "options": [
+            "Supports the goal only if paired with financial discipline",
+            "Guarantees success regardless of risk",
+            "Irrelevant to that goal",
+            "Only relevant domestically"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "question":"Competitors acquiring content studios/distribution to internalize their supply chain and threaten Netflix's content pipeline is:",
+        "options": [
+            "Backward vertical integration by rivals",
+            "Horizontal diversification",
+            "Blue ocean strategy",
+            "Market penetration"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "question":"Do you pursue your own M&A, breaking from Netflix's historic no-large-acquisitions stance, or continue organic-only growth?",
+        "options": [
+            "Pursue M&A, break from historic stance",
+            "Continue organic-only growth",
+            "Pursue only small tuck-in acquisitions (like StoryBots)"
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  5,
+                "FHI": -6,
+                "CBI": -6
+            },
+            {
+                "SGI":  1,
+                "FHI":  3,
+                "CBI":  6
+            },
+            {
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "question":"Preferring organic growth over large acquisitions even as rivals consolidate reflects a bet on:",
+        "options": [
+            "Related diversification",
+            "Horizontal integration",
+            "Market penetration",
+            "Organic capability-building over M&A-driven scale"
+        ],
+        "correctIndex": 3,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "question":"AT&T is pulling Friends and Warner content toward HBO Max.",
+        "options": [
+            "Accept the loss,accelerate comparable originals",
+            "Pay a premium to retain rights temporarily", 
+            "Negotiate a shorter,cheaper extension"
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": -1,
+                "FHI":  2,
+                "CBI":  7
+            },
+            {
+                "SGI":  2,
+                "FHI": -6,
+                "CBI": -2
+            },
+            {
+                "SGI":  1,
+                "FHI": -2,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "question":"Given supplier consolidation, does avoiding vertical integration via acquisition - relying instead on organic studio-building — still make sense?",
+        "options": [
+            "Irrelevant",
+            "No,acquisitions are now mandatory",
+            "Yes,if paired with sufficient organic content investment",
+            "Only relevant internationally"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "question":"On The Office's expected departure from the platform:",
+        "options": [
+            "Negotiate hard for continued accesss",
+            "Publicly signal the departure in advance, manage expectations",
+            "Say nothing, let subscribers discover it"
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  2,
+                "FHI": -5,
+                "CBI": -1
+            },
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI":  5
+            },
+            {
+                "SGI": -2,
+                "FHI":  1,
+                "CBI": -4
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "question":"Communicating upcoming content changes transparently rather than staying silent reflects:",
+        "options": [
+            "Cost leadership",
+            "Transparency",
+            "Vertical integration",
+            "Diversification"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "question":"Facing rivals with $215B in M&A firepower:",
+        "options": [
+            "Raise prices now to fund a faster response",
+            "Hold pricing steady, protect growth momentum",
+            "Modest price increase, partial funding"
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": -4,
+                "FHI":  6,
+                "CBI":  0
+            },
+            {
+                "SGI":  5,
+                "FHI": -3,
+                "CBI":  2
+            },
+            {
+                "SGI":  1,
+                "FHI":  2,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "question":"Holding pricing steady to protect subscriber growth despite rising content costs reflects:",
+        "options": [
+            "Vertical integration",
+            "Price discrimination",
+            "Growth vs. margin trade-off",
+            "Currency hedging"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "question":"Room debrief: how do you frame this consolidation threat to your leadership team?",
+        "options": [
+            "Expected competitive evolution, steady management",
+            "Existential crisis, drastic action needed" ,
+            "Downplay it entirely, no framing needed"
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  2,
+                "FHI":  2,
+                "CBI":  6
+            },
+            {
+                "SGI":  2,
+                "FHI": -3,
+                "CBI": -3
+            },
+            {
+                "SGI": -2,
+                "FHI":  0,
+                "CBI": -3
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "question":"Pricing response to Disney+",
+        "options": [
+            "Hold premium pricing, differentiate on breadth/originals ",
+            "Cut Netflix's price to compete directly",
+            "Introduce a lower-tier plan alongside existing pricing"
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  1,
+                "FHI":  3,
+                "CBI":  6
+            },
+            {
+                "SGI":  4,
+                "FHI": -7,
+                "CBI": -3
+            },
+            {
+                "SGI":  3,
+                "FHI": -1,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "question":"Disney+'s ability to price low while staying profitable long-term, stemming from owning content outright (no licensing cost), is called:",
+        "options": [
+            "Network effect",
+            "First-mover advantage",
+            "Cost advantage from vertical integration/owned IP",
+            "Economies of scope only"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 5,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "question":"Netflix's Q3 2019 forecast is slightly missed around Disney+'s pre-launch buzz.",
+        "options": [
+            "Publicly attribute the miss to competition.",
+            "Avoid blaming competitors, focus messaging on long-term strategy",
+            "Say nothing publicly about the miss"
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": -1,
+                "FHI": -2,
+                "CBI": -2
+            },
+            {
+                "SGI":  2,
+                "FHI":  2,
+                "CBI":  6
+            },
+            {
+                "SGI": -2,
+                "FHI":  0,
+                "CBI": -2
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "question":"Avoiding blame-shifting to competitors, reinforcing long-term strategic narrative instead, reflects sound:",
+        "options": [
+            "Vertical integration",
+            "Investor relations/crisis communication",
+            "Price discrimination",
+            "Currency hedging"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "question":"Respond to Disney+'s family-content strength?",
+        "options": [
+            "Pivot toward more family/franchise content",
+            "Add a modest family-content slate without abandoning core focus", 
+            "Continue focusing on existing strengths"
+ 
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI":  3,
+                "FHI": -3,
+                "CBI": -4
+            },
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  3
+            },
+            {
+                "SGI":  2,
+                "FHI":  2,
+                "CBI":  6
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "question":"Continuing to focus on your existing strengths rather than copying a new entrant's positioning reflects:",
+        "options": [
+            "Sustainable competitive advantage / strategic focus",
+            "Imitation strategy",
+            "Cost leadership",
+            "Blue ocean elimination"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "question":"Disney+ signs 8M Indian subscribers fast via Hotstar's cricket rights.",
+        "options": [
+            "Accelerate your own India-specific response immediately",
+            "Wait and observe Disney+'s India trajectory first",
+            "Begin moderate India-specific planning without full commitment yet"
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  6,
+                "FHI": -4,
+                "CBI":  2
+            },
+            {
+                "SGI": -3,
+                "FHI":  2,
+                "CBI": -1
+            },
+            {
+                "SGI":  2,
+                "FHI":  1,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "question":"Disney+'s rapid India growth via existing local sports/entertainment rights illustrates the value of:",
+        "options": [
+            "Cost leadership",
+            "Vertical integration",
+            "Leveraging existing local assets/distribution",
+            "Currency hedging"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "question":"HBO Max and Peacock are bundling with telecom/cable subscriptions.",
+        "options": [
+            "Pursue a similar telecom bundling partnership",
+            "Maintain direct-to-consumer-only model",
+            "Pilot a single limited bundling partnership"
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  4,
+                "FHI": -2,
+                "CBI": -4
+            },
+            {
+                "SGI":  1,
+                "FHI":  2,
+                "CBI":  6
+            },
+            {
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "question":"Does staying direct-to-consumer-only, rather than bundling with telecoms, align with \"a focused passion brand, not a do-everything brand\" (\"Starbucks, not 7-Eleven\")?",
+        "options": [
+            "Yes, consistent",
+            "No, contradicts it",
+            "Irrelevant",
+            "Only applies to content, not distribution"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "question":"Shift greater priority to international markets (like India) now, or continue prioritizing US investment?",
+        "options": [
+            "Shift greater priority to international markets now",
+            "Continue prioritizing US content/product investment",
+            "Balanced international/US investment"
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  6,
+                "FHI": -2,
+                "CBI":  3
+            },
+            {
+                "SGI": -3,
+                "FHI":  2,
+                "CBI": -2
+            },
+            {
+                "SGI":  3,
+                "FHI":  1,
+                "CBI":  2
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "question":"Recognizing a home market nearing saturation and shifting emphasis internationally is a classic:",
+        "options": [
+            "Cost leadership",
+            "Vertical integration",
+            "International/global expansion response to domestic market maturity",
+            "Retrenchment strategy"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "question":"Analysts say ads could earn $1B+/year, but Netflix has pledged never to run them.",
+        "options": [
+            "Break the pledge, introduce ads",
+            "Explore ads only in a new low-cost tier, keep premium ad-free" ,
+            "Hold firm on the no-ads model"
+ 
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI":  3,
+                "FHI":  7,
+                "CBI": -8
+            },
+            {
+                "SGI":  3,
+                "FHI":  3,
+                "CBI": -2
+            },
+            {
+                "SGI":  1,
+                "FHI": -2,
+                "CBI":  7
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "question":"Netflix's stated rationale - a \"more valuable business long-term\" by staying ad-free and focusing on viewer satisfaction — prioritizes:",
+        "options": [
+            "Cost leadership",
+            "Customer experience/focus over incremental revenue diversification",
+            "Vertical integration",
+            "Currency hedging"
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "question":"Your churn is far lower than rivals'.",
+        "options": [
+            "Raise prices, leverage low churn/stickiness",
+            "Maintain pricing, protect the churn advantage as a growth lever",
+            "Modest, gradual price increases only"
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI": -3,
+                "FHI":  6,
+                "CBI": -1
+            },
+            {
+                "SGI":  5,
+                "FHI": -1,
+                "CBI":  3
+            },
+            {
+                "SGI":  1,
+                "FHI":  3,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "question":"Low subscriber churn relative to competitors, even amid new entrants, indicates strong:",
+        "options": [
+            "Vertical integration",
+            "Price elasticity",
+            "Customer retention / brand loyalty",
+            "Economies of scale"
+        ],
+        "correctIndex": 2,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 5,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "question":"Continue avoiding live sports and user-generated content, or begin exploring these categories?",
+        "options": [
+            "Continue avoiding sports/UGC, stay within historical boundaries",
+            "Begin exploring sports/UGC to broaden appeal", 
+            "Explore only a small, low-risk pilot in one category"
+ 
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI":  6
+            },
+            {
+                "SGI":  4,
+                "FHI": -4,
+                "CBI": -5
+            },
+            {
+                "SGI":  2,
+                "FHI":  0,
+                "CBI":  1
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "question":"Continued avoidance of live sports/UGC, categories some competitors use to drive engagement, reflects strict adherence to:",
+        "options": [
+            "Focused-brand strategic positioning",
+            "Cost leadership approach",
+            "Vertical integration approach",
+            "Diversification strategy"
+        ],
+        "correctIndex": 0,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "question":"Should competitive-response decisions be centralized, or pushed to regional/product teams (consistent with decentralized culture)?",
+        "options": [
+            "Centralize key competitive decisions given the scale of the threat",
+            "Push decisions down to regional/product teams", 
+            "Centralize only the largest financial commitments, decentralize the rest"
+ 
+        ],
+        "correctIndex": 1,
+        "impacts": [
+            {
+                "SGI":  1,
+                "FHI":  1,
+                "CBI": -5
+            },
+            {
+                "SGI":  3,
+                "FHI":  0,
+                "CBI":  7
+            },
+            {
+                "SGI":  2,
+                "FHI":  1,
+                "CBI":  3
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "question":"Does holding firm on pricing/no-ads, prioritizing international growth, and staying within historical content boundaries represent disciplined strategic consistency, or an underreaction to a transformed competitive landscape?",
+        "options": [
+            "Only relevant to Sessions 1-2's culture material",
+            "A reckless underreaction guaranteed to fail",
+            "Irrelevant framing",
+            "A calculated, disciplined strategic choice consistent with Netflix's identity"
+        ],
+        "correctIndex": 3,
+        "impacts": [
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 0
+            },
+            {
+                "SGI": 0,
+                "FHI": 0,
+                "CBI": 5
+                }
+            ]
+        }
+    ]

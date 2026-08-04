@@ -75,7 +75,6 @@ namespace secondWeek_Lu
         public string currentTaskString;
         public TMP_Text CurrentTask;
         public TextAsset mcqJsonFile;
-        public TextAsset toggleJsonFile;
         public string sceneToLoad;                  // Assign in Inspector
         public GameObject voiceObjectToActivate;
         // If true, skip Player 2's response
@@ -91,7 +90,6 @@ namespace secondWeek_Lu
             cameraController = FindObjectOfType<CameraController>();
             if (cameraController == null) Debug.LogError("CameraController not found!");
             LoadMCQDatabase();
-            LoadToggleQuestionDatabase();
             if (dialogueText != null && speakerText != null && dialogues.Length > 0)
             {
                 dialogueText.text = "";
@@ -522,11 +520,8 @@ namespace secondWeek_Lu
 
             foreach (var btn in dialogue.mcqAnswerButtons)
             {
-                Debug.Log("Button Name: " + (btn != null ? btn.name : "NULL"));
-
                 if (btn == null)
                 {
-                    Debug.LogError("Button NULL mila!");
                     continue;
                 }
 
@@ -534,14 +529,11 @@ namespace secondWeek_Lu
             }
 
             yield return new WaitForSeconds(1f);
-
-            // Set to white after 1 second
             if (btnImage != null)
             {
                 btnImage.color = Color.white;
             }
 
-            // Wait for remaining delay (if any)
             float remainingDelay = Mathf.Max(0, delay - 1f);
             if (remainingDelay > 0)
             {
@@ -687,7 +679,6 @@ namespace secondWeek_Lu
         private IEnumerator PerformPostAnswerActivityCorrect()
         {
             if (cameraController != null) cameraController.enabled = true;
-            Debug.Log("🎬 Starting post-answer activity...");
             Upward.SetActive(true);
             // Place any animations, popups, etc. here
             yield return new WaitForSeconds(2f);
@@ -697,12 +688,10 @@ namespace secondWeek_Lu
         private IEnumerator PerformPostAnswerActivityWrong()
         {
             if (cameraController != null) cameraController.enabled = true;
-            Debug.Log("🎬 Starting post-answer activity...");
             Downwards.SetActive(true);
             // Place any animations, popups, etc. here
             yield return new WaitForSeconds(2f);
             Downwards.SetActive(false);
-            Debug.Log("✅ Post-answer activity finished.");
         }
 
 
@@ -760,34 +749,21 @@ namespace secondWeek_Lu
         {
             if (mcqJsonFile == null)
             {
-                Debug.LogError("MCQ JSON file is not assigned in the inspector.");
                 return;
             }
+
             string wrappedJson = "{\"mcqs\":" + mcqJsonFile.text + "}";
             MCQDataList dataList = JsonUtility.FromJson<MCQDataList>(wrappedJson);
+
+            Debug.Log("Total MCQs loaded: " + dataList.mcqs.Count);
+
             foreach (var mcq in dataList.mcqs)
             {
                 mcqDatabase[mcq.id] = mcq;
-
             }
         }
         private Dictionary<int, ToggleQuestionData> toggleQuestionDatabase = new Dictionary<int, ToggleQuestionData>();
-        private void LoadToggleQuestionDatabase()
-        {
-            if (toggleJsonFile == null)
-            {
-                Debug.LogError("Toggle JSON file is not assigned.");
-                return;
-            }
-            string wrappedJson = "{\"toggleQuestions\":" + toggleJsonFile.text + "}";
-            ToggleQuestionDataList dataList = JsonUtility.FromJson<ToggleQuestionDataList>(wrappedJson);
 
-            foreach (var question in dataList.toggleQuestions)
-            {
-                toggleQuestionDatabase[question.id] = question;
-
-            }
-        }
         public void ApplyMCQImpact(MCQData data, int index)
         {
             Debug.Log("Data Null : " + (data == null));
@@ -840,8 +816,6 @@ namespace secondWeek_Lu
 
         void ResetSingleMCQ(Dialogue dialogue)
         {
-            Debug.Log("===== ResetSingleMCQ Called =====");
-
             dialogue.mcqQuestionText.text = "";
 
             foreach (Button btn in dialogue.mcqAnswerButtons)
@@ -851,48 +825,32 @@ namespace secondWeek_Lu
                     Debug.LogError("NULL Button mila");
                     continue;
                 }
-
-                Debug.Log("Reset ho raha hai: " + btn.name);
-
                 btn.interactable = true;
                 btn.gameObject.SetActive(true);
-
                 Image img = btn.GetComponent<Image>();
-
                 if (img != null)
                 {
                     img.color = Color.white;
-                    Debug.Log(btn.name + " color reset");
                 }
-
                 TMP_Text txt = btn.GetComponentInChildren<TMP_Text>();
-
                 if (txt != null)
                 {
                     txt.text = "";
-                    Debug.Log(btn.name + " text reset");
                 }
-
                 btn.onClick.RemoveAllListeners();
             }
         }
 
         void Reset3OptionMCQ(Dialogue dialogue)
         {
-            Debug.Log("===== Reset3OptionMCQ Called =====");
-
             dialogue.mcq3QuestionText.text = "";
 
             foreach (Button btn in dialogue.mcq3AnswerButtons)
             {
                 if (btn == null)
                 {
-                    Debug.LogError("NULL Button mila");
                     continue;
                 }
-
-                Debug.Log("Reset ho raha hai: " + btn.name);
-
                 btn.interactable = true;
                 btn.gameObject.SetActive(true);
 
@@ -901,7 +859,6 @@ namespace secondWeek_Lu
                 if (img != null)
                 {
                     img.color = Color.white;
-                    Debug.Log(btn.name + " color reset");
                 }
 
                 TMP_Text txt = btn.GetComponentInChildren<TMP_Text>();
@@ -909,9 +866,7 @@ namespace secondWeek_Lu
                 if (txt != null)
                 {
                     txt.text = "";
-                    Debug.Log(btn.name + " text reset");
                 }
-
                 btn.onClick.RemoveAllListeners();
             }
         }
