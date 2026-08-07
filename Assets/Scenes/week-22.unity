@@ -321,7 +321,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 114
+    mcqID: 654
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -1587,7 +1587,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 99
+    mcqID: 639
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -2329,7 +2329,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 104
+    mcqID: 644
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -3074,7 +3074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8825,7 +8825,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 102
+    mcqID: 642
     requiresMultipleMCQs: 0
     mcqIDs: 01000000
     mcqBox: {fileID: 1218778698}
@@ -9529,7 +9529,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 120
+    mcqID: 660
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -10089,7 +10089,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -19555,7 +19555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -27965,7 +27965,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 6e30465177f46e549b1a947066dc6d4d, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 100
+    mcq3ID: 640
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -28442,7 +28442,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 108
+    mcqID: 648
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -29881,7 +29881,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 110
+    mcqID: 650
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -30288,7 +30288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -31362,7 +31362,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 6e30465177f46e549b1a947066dc6d4d, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 98
+    mcq3ID: 638
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -34216,7 +34216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -38203,7 +38203,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 118
+    mcqID: 658
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -38838,7 +38838,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 9ac70486acd77a54997106dbaf13cc21, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 107
+    mcq3ID: 647
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -39492,7 +39492,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 9ac70486acd77a54997106dbaf13cc21, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 113
+    mcq3ID: 653
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -41877,7 +41877,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 93
+    mcqID: 633
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -42587,7 +42587,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 9ac70486acd77a54997106dbaf13cc21, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 115
+    mcq3ID: 655
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -43313,7 +43313,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 9ac70486acd77a54997106dbaf13cc21, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 119
+    mcq3ID: 659
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -44389,7 +44389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -45325,7 +45325,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WEEK: 04'
+  m_text: 'WEEK: 22'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 98a57adaebd0b0a4e9ca3cd6d6089729, type: 2}
   m_sharedMaterial: {fileID: -8997056095408153386, guid: 98a57adaebd0b0a4e9ca3cd6d6089729,
@@ -46055,7 +46055,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 97
+    mcqID: 637
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -46360,7 +46360,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 0
-    mcqID: 103
+    mcqID: 0
     requiresMultipleMCQs: 0
     mcqIDs: 00000000
     mcqBox: {fileID: 0}
@@ -46373,7 +46373,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 9ac70486acd77a54997106dbaf13cc21, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 73
+    mcq3ID: 643
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -47546,7 +47546,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 9ac70486acd77a54997106dbaf13cc21, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 111
+    mcq3ID: 651
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -49083,7 +49083,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1366878731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49105,8 +49105,11 @@ MonoBehaviour:
   dialogues:
   - skipPlayer1OnlyShowMCQ: 0
     player1Role: CEO
-    player1Text: 'AT&T, Disney, and Comcast complete acquisitions worth a combined
-      $215B, threatening to pull licensed content and launch rival streaming platforms. '
+    player1Text: " By December 2021, Disney+ Hotstar and Amazon Prime Video still
+      undercut Netflix sharply on price. Netflix slashes India prices across all
+      tiers \u2014 Basic drops 60% (\u20B9499\u2192\u20B9199), mobile-only falls
+      to \u20B9149 \u2014 timed to land the same day Amazon Prime raises its India
+      rates. "
     player1Audio: {fileID: 8300000, guid: c7ee7e00a9db2e846ab27c99b387fed4, type: 3}
     playerAnimEnable: {fileID: 743922014}
     player1Animator: {fileID: 919132148323066604}
@@ -49117,7 +49120,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 91
+    mcqID: 631
     requiresMultipleMCQs: 0
     mcqIDs: 01000000
     mcqBox: {fileID: 1218778698}
@@ -50560,7 +50563,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 6e30465177f46e549b1a947066dc6d4d, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 96
+    mcq3ID: 636
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -50887,7 +50890,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 9ac70486acd77a54997106dbaf13cc21, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 109
+    mcq3ID: 649
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -53858,7 +53861,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 9ac70486acd77a54997106dbaf13cc21, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 105
+    mcq3ID: 645
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -55051,7 +55054,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 112
+    mcqID: 652
     requiresMultipleMCQs: 0
     mcqIDs: 01000000
     mcqBox: {fileID: 1218778698}
@@ -56028,7 +56031,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 95
+    mcqID: 635
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -56471,7 +56474,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 6e30465177f46e549b1a947066dc6d4d, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 94
+    mcq3ID: 634
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -57405,7 +57408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -57898,7 +57901,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 9ac70486acd77a54997106dbaf13cc21, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 117
+    mcq3ID: 657
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -59870,7 +59873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -59950,7 +59953,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 106
+    mcqID: 646
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -60422,7 +60425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -61271,7 +61274,7 @@ MonoBehaviour:
     playerAnimEnable2: {fileID: 0}
     player2Animator: {fileID: 0}
     requiresMCQ: 1
-    mcqID: 116
+    mcqID: 656
     requiresMultipleMCQs: 0
     mcqIDs: 
     mcqBox: {fileID: 1218778698}
@@ -63425,7 +63428,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 9ac70486acd77a54997106dbaf13cc21, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 101
+    mcq3ID: 641
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
@@ -69387,7 +69390,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -65.573395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2125493115
 MonoBehaviour:
@@ -72638,7 +72641,7 @@ Transform:
   m_GameObject: {fileID: 5001388670012545090}
   serializedVersion: 2
   m_LocalRotation: {x: -0.43045932, y: -0.56098557, z: 0.56098557, w: -0.43045932}
-  m_LocalPosition: {x: 0.35, y: 3.49, z: -0.29}
+  m_LocalPosition: {x: 0.17, y: 3.762, z: -0.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84451,7 +84454,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3733446644683565291}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -9.1310005}
+  m_LocalPosition: {x: 0, y: 0, z: -8.9823}
   m_LocalScale: {x: 0.009999999, y: 0.01, z: 0.009999999}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -85992,7 +85995,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4158210211400016556}
   m_LocalRotation: {x: -0.70710677, y: 0, z: 0, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 0, z: 74}
+  m_LocalPosition: {x: 0, y: 0, z: 71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86000,7 +86003,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 899, y: -1694}
+  m_AnchoredPosition: {x: 896, y: -1659.8}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &5929804709715048198
@@ -89394,7 +89397,7 @@ MonoBehaviour:
       type: 3}
     wrongAnswerAudio: {fileID: 8300000, guid: 6e30465177f46e549b1a947066dc6d4d, type: 3}
     requires3OptionMCQ: 1
-    mcq3ID: 92
+    mcq3ID: 632
     mcq3Box: {fileID: 749519088}
     mcq3QuestionText: {fileID: 242819205}
     mcq3AnswerButtons:
