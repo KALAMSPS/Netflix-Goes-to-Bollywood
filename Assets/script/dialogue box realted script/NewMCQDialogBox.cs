@@ -77,6 +77,9 @@ namespace secondWeek_Lu
         public TextAsset mcqJsonFile;
         public string sceneToLoad;                  // Assign in Inspector
         public GameObject voiceObjectToActivate;
+        public bool delayMCQClose;
+        public bool ShowColorOption;
+        public bool SceneLoad;
         // If true, skip Player 2's response
 
         private void Start()
@@ -231,6 +234,10 @@ namespace secondWeek_Lu
             Diary();
             onConversationComplete?.Invoke();
             Debug.Log("us100");
+            if(SceneLoad)
+            {
+                SceneManager.LoadScene(sceneToLoad);
+            }
 
             if (playerController != null)
                 playerController.enabled = true;
@@ -508,7 +515,6 @@ namespace secondWeek_Lu
             yield return new WaitForSeconds(messageDelay);
         }
 
-        public bool ShowColorOption;
         public IEnumerator HandleAnswerFeedback(Button selectedButton, bool isCorrect, Dialogue dialogue, float delay, System.Action onComplete)
         {
             Image btnImage = selectedButton.GetComponent<Image>();
@@ -576,7 +582,6 @@ namespace secondWeek_Lu
         {
             yield return HandleAnswerFeedback(selectedButton, isCorrect, dialogue, delay, null);
         }
-        public bool delayMCQClose;
         private IEnumerator HideMCQBoxAfterDelay(GameObject mcqBox, float delay)
         {
             yield return new WaitForSeconds(delay);

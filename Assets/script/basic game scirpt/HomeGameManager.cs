@@ -56,15 +56,15 @@ public class HomeGameController : MonoBehaviour
     public float popupScaleDuration = 0.25f;
 
     [Header("Scene")]
-    public string firstGameScene = "Week_1";
+    string firstGameScene = "week-1";
 
     [Header("Audio")]
     public AudioSource audioSource;
     public AudioClip clickSound;
     [Header("About Panel")]
-public CanvasGroup aboutPanel;
-public Button aboutCloseButton;
-// public Button CloseAbout;
+    public CanvasGroup aboutPanel;
+    public Button aboutCloseButton;
+    // public Button CloseAbout;
 
     [System.Serializable]
     public class UIScreen
@@ -141,7 +141,7 @@ public Button aboutCloseButton;
             aboutButton.onClick.AddListener(OpenAbout);
         if (aboutCloseButton != null)
             aboutCloseButton.onClick.AddListener(CloseAbout);
-            
+
     }
 
     //-------------------------------------------------------------
@@ -271,16 +271,16 @@ public Button aboutCloseButton;
         SceneManager.LoadScene(firstGameScene);
     }
 
-   void OpenAbout()
-{
-    PlayClick();
-    StartCoroutine(FadeIn(aboutPanel));
-}
-void CloseAbout()
-{
-    PlayClick();
-    StartCoroutine(FadeOut(aboutPanel));
-}
+    void OpenAbout()
+    {
+        PlayClick();
+        StartCoroutine(FadeIn(aboutPanel));
+    }
+    void CloseAbout()
+    {
+        PlayClick();
+        StartCoroutine(FadeOut(aboutPanel));
+    }
 
     void OpenSettings()
     {
@@ -359,7 +359,7 @@ void CloseAbout()
     void ClearData()
     {
         PlayClick();
-
+        StartCoroutine(FadeCanvas(homePanel, 1f));
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
 
@@ -478,12 +478,12 @@ void CloseAbout()
             Debug.Log("LastScene Key Not Found.");
         }
     }
-    
+
 
     private void OnDestroy()
     {
         if (introVideo != null)
             introVideo.loopPointReached -= OnVideoFinished;
     }
-    
+
 }
