@@ -234,16 +234,46 @@ namespace secondWeek_Lu
             Diary();
             onConversationComplete?.Invoke();
             Debug.Log("us100");
-            if(SceneLoad)
+            if (SceneLoad)
             {
-                SceneManager.LoadScene(sceneToLoad);
+                StartSceneLoadProcess();
             }
-
             if (playerController != null)
                 playerController.enabled = true;
-
         }
+        public void StartSceneLoadProcess()
+        {
+            StartCoroutine(PlayVoiceThenLoadScene(sceneToLoad, voiceObjectToActivate));
+        }
+        private IEnumerator PlayVoiceThenLoadScene(string sceneName, GameObject voiceObject)
+        {
+            if (voiceObject != null)
+            {
+                voiceObject.SetActive(true);
 
+                AudioSource audio = voiceObject.transform.GetChild(0).GetComponent<AudioSource>();
+
+                Debug.Log("257 - Voice Object Activated");
+
+                if (audio != null && audio.clip != null)
+                {
+                    audio.Play();
+
+                    Debug.Log("Voice Started");
+
+                    // Audio complete hone tak wait karega
+                    yield return new WaitForSeconds(audio.clip.length);
+
+                    Debug.Log("Voice Completed");
+                }
+            }
+
+            Debug.Log("264 - Loading Scene");
+
+            SceneManager.LoadScene(sceneName);
+
+            Debug.Log("266 - Scene Loaded");
+        }
         void ShowSingleMCQ(Dialogue dialogue)
         {
             Debug.Log("ShowSingleMCQ Start");
@@ -718,28 +748,7 @@ namespace secondWeek_Lu
                 audioSource.Play();
             }
         }
-        public void StartSceneLoadProcess()
-        {
-            StartCoroutine(PlayVoiceThenLoadScene(sceneToLoad, voiceObjectToActivate));
-        }
 
-        private IEnumerator PlayVoiceThenLoadScene(string sceneName, GameObject voiceObject)
-        {
-            if (voiceObject != null)
-            {
-                voiceObject.SetActive(true);
-                AudioSource audio = voiceObject.GetComponent<AudioSource>();
-                Debug.Log("793");
-                if (audio != null && audio.clip != null)
-                {
-                    audio.Play();
-                    yield return new WaitForSeconds(audio.clip.length);
-                }
-            }
-            Debug.Log("799");
-            SceneManager.LoadScene(sceneName);
-            Debug.Log("802");
-        }
         public void ChangeInformation(string changeInformationText)
         {
             if (PlayerTriggerActivity.instance.infomationHeading != null)

@@ -22,17 +22,13 @@ public class HomeGameController : MonoBehaviour
 
     public Button loginButton;
 
-    [Header("Login Credentials")]
-    public string userName = "admin";
-    public string password = "1234";
-
     [Header("Home Panel")]
     public CanvasGroup homePanel;
 
     [Header("Home Buttons")]
     public Button startButton;
     public Button aboutButton;
-    public Button settingsButton;
+    public Button ReloadButton; 
     public Button exitButton;
     public Button clearDataButton;
 
@@ -80,6 +76,13 @@ public class HomeGameController : MonoBehaviour
         else
             Destroy(gameObject);
     }
+    // void OnEnable()
+    // {
+    //     PlayerPrefs.DeleteKey("Username");
+    //     PlayerPrefs.DeleteKey("Password");
+
+    //     PlayerPrefs.Save();
+    // }
 
     private void Start()
     {
@@ -117,8 +120,8 @@ public class HomeGameController : MonoBehaviour
         if (aboutButton != null)
             aboutButton.onClick.AddListener(OpenAbout);
 
-        if (settingsButton != null)
-            settingsButton.onClick.AddListener(OpenSettings);
+        if (ReloadButton != null)
+            ReloadButton.onClick.AddListener(OpenSettings);
 
         if (exitButton != null)
             exitButton.onClick.AddListener(OpenExitPopup);
@@ -141,6 +144,8 @@ public class HomeGameController : MonoBehaviour
             aboutButton.onClick.AddListener(OpenAbout);
         if (aboutCloseButton != null)
             aboutCloseButton.onClick.AddListener(CloseAbout);
+        if (ReloadButton != null)
+            ReloadButton.onClick.AddListener(LoadLastScene);
 
     }
 
@@ -179,17 +184,16 @@ public class HomeGameController : MonoBehaviour
 
         string user = usernameInput.text.Trim();
         string pass = passwordInput.text.Trim();
-
-        if (user == userName && pass == password)
+        PlayerPrefs.SetString("Username", user);
+        PlayerPrefs.SetString("Password", pass);
+        PlayerPrefs.Save();
+        if (GlobalDataManager.instance != null)
         {
-            Debug.Log("Login Success");
-
-            StartCoroutine(SwitchPanel(loginPanel, homePanel));
+            GlobalDataManager.instance.SetPlayerName(user);
+            GlobalDataManager.instance.SetPassword(pass);
+            GlobalDataManager.instance.SaveData();
         }
-        else
-        {
-            Debug.Log("Invalid Username or Password");
-        }
+        StartCoroutine(SwitchPanel(loginPanel, homePanel));
     }
 
     IEnumerator SwitchPanel(CanvasGroup current, CanvasGroup next)
@@ -359,11 +363,25 @@ public class HomeGameController : MonoBehaviour
     void ClearData()
     {
         PlayClick();
+
         StartCoroutine(FadeCanvas(homePanel, 1f));
-        PlayerPrefs.DeleteAll();
+
+        // Clear GameData.json
+        if (GlobalDataManager.instance != null)
+        {
+            GlobalDataManager.instance.ResetData();
+            Debug.Log("GameData.json cleared successfully.");
+        }
+
+
+        // Clear only game-related PlayerPrefs
+        PlayerPrefs.DeleteKey("LastScene");
+
         PlayerPrefs.Save();
 
-        Debug.Log("All PlayerPrefs Cleared Successfully.");
+        Debug.Log("Game data cleared successfully.");
+        Debug.Log("Username: " + PlayerPrefs.GetString("Username", "Not Found"));
+        Debug.Log("Password: " + PlayerPrefs.GetString("Password", "Not Found"));
 
         StartCoroutine(HidePopup(clearPopup));
     }

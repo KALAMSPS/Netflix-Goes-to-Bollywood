@@ -1,11 +1,11 @@
 {
-    "SGI": 392,
-    "FHI": 208,
+    "SGI": 281,
+    "FHI": 391,
     "CGI": 0,
-    "playerName": "sdfs",
-    "password": "sdfsfs@1234",
+    "playerName": "",
+    "password": "",
     "currentDateTime": "",
     "totalMissions": 0,
-    "totalWeeks": 11,
+    "totalWeeks": 1,
     "totalCollectedCoins": 0
 }

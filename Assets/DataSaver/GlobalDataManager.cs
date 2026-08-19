@@ -115,17 +115,44 @@ public class GlobalDataManager : MonoBehaviour
     }
 
     // RESET JSON SAVED FILE
+    // public void ResetData()
+    // {
+    //     globalData.SGI = 0;
+    //     globalData.FHI = 0;
+    //     globalData.CGI = 0;
+    //     globalData.currentDateTime = "";
+    //     globalData.totalWeeks = 1;
+    //     SaveData();
+    //     UIManager.instance.UpdateSGIUI(0);
+    //     UIManager.instance.UpdateFHIUI(0);
+    //     UIManager.instance.UpdateCGIUI(0);
+    // }
     public void ResetData()
     {
+        // Game progress reset
         globalData.SGI = 0;
         globalData.FHI = 0;
         globalData.CGI = 0;
+
         globalData.currentDateTime = "";
+
+        globalData.totalMissions = 0;
         globalData.totalWeeks = 1;
+        globalData.totalCollectedCoins = 0;
+
+        // IMPORTANT:
+        // playerName and password NOT reset
+
         SaveData();
-        UIManager.instance.UpdateSGIUI(0);
-        UIManager.instance.UpdateFHIUI(0);
-        UIManager.instance.UpdateCGIUI(0);
+
+        if (UIManager.instance != null)
+        {
+            UIManager.instance.UpdateSGIUI(globalData.SGI);
+            UIManager.instance.UpdateFHIUI(globalData.FHI);
+            UIManager.instance.UpdateCGIUI(globalData.CGI);
+        }
+
+        Debug.Log("Game progress reset successfully.");
     }
 
 

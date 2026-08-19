@@ -9342,7 +9342,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 155848476}
+      - m_Target: {fileID: 1508450972}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -9362,7 +9362,7 @@ MonoBehaviour:
   CurrentTask: {fileID: 0}
   mcqJsonFile: {fileID: 4900000, guid: 0ea4883aa8ee60349a060a0940896a6c, type: 3}
   sceneToLoad: week-21
-  voiceObjectToActivate: {fileID: 0}
+  voiceObjectToActivate: {fileID: 2034571492}
   delayMCQClose: 1
   ShowColorOption: 0
   SceneLoad: 1
@@ -40365,6 +40365,74 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1001 &1095034596
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 101576706965691471, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_Name
+      value: Player setting
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 923.42426
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 667.8447
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.745707
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e94f9a76a13ed6a4fb9eb22615b3222a, type: 3}
 --- !u!1 &1096171661
 GameObject:
   m_ObjectHideFlags: 0
@@ -45693,10 +45761,11 @@ MonoBehaviour:
   dialogues:
   - skipPlayer1OnlyShowMCQ: 0
     player1Role: CEO
-    player1Text: "Netflix's churn (~2%/month) beats Hulu/Disney+ (~5%) and CBS All
-      Access/HBO Now/Starz (~7\u20138%), but US growth may be approaching a ceiling
-      (10% of US TV viewing; forecast of 60\u201390M US subscribers). "
-    player1Audio: {fileID: 8300000, guid: 1c8e7a30170d1544b82404b47752e912, type: 3}
+    player1Text: ' As the streaming industry consolidates around fewer, larger players,
+      Netflix increasingly stands out as one of the only major streaming services
+      still operating as an independent, purpose-built streaming company rather than
+      a division of a larger diversified media conglomerate. '
+    player1Audio: {fileID: 8300000, guid: e4a0b87052b67d54e9144119817533b7, type: 3}
     playerAnimEnable: {fileID: 331811900}
     player1Animator: {fileID: 919132148323066604}
     skipPlayer2: 1
@@ -47234,12 +47303,11 @@ MonoBehaviour:
   dialogues:
   - skipPlayer1OnlyShowMCQ: 0
     player1Role: CEO
-    player1Text: " By December 2021, Disney+ Hotstar and Amazon Prime Video still
-      undercut Netflix sharply on price. Netflix slashes India prices across all
-      tiers \u2014 Basic drops 60% (\u20B9499\u2192\u20B9199), mobile-only falls
-      to \u20B9149 \u2014 timed to land the same day Amazon Prime raises its India
-      rates. "
-    player1Audio: {fileID: 8300000, guid: c7ee7e00a9db2e846ab27c99b387fed4, type: 3}
+    player1Text: 'Warner Bros Discovery, formed via the 2022 WarnerMedia-Discovery
+      merger, faces significant debt burden and streaming-strategy challenges (including
+      HBO Max rebranding confusion), creating uncertainty about one of Netflix''s
+      major content rivals. '
+    player1Audio: {fileID: 8300000, guid: 4f2943af6124f2e4db2faba855f7d521, type: 3}
     playerAnimEnable: {fileID: 743922014}
     player1Animator: {fileID: 919132148323066604}
     skipPlayer2: 1
@@ -47316,7 +47384,7 @@ MonoBehaviour:
   currentTaskString: 
   CurrentTask: {fileID: 0}
   mcqJsonFile: {fileID: 4900000, guid: 0ea4883aa8ee60349a060a0940896a6c, type: 3}
-  sceneToLoad: week-21
+  sceneToLoad: 
   voiceObjectToActivate: {fileID: 0}
   delayMCQClose: 1
   ShowColorOption: 0
@@ -60817,6 +60885,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033328267}
   m_CullTransparentMesh: 1
+--- !u!1001 &2034571491
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 814293425221767360, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_text
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7956185272306510482, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_Name
+      value: LEVEL_UP
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a9bced036b28ae44969f7b3824393dd, type: 3}
+--- !u!1 &2034571492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7956185272306510482, guid: 4a9bced036b28ae44969f7b3824393dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2034571491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2037720741
 GameObject:
   m_ObjectHideFlags: 0
@@ -61343,10 +61540,11 @@ MonoBehaviour:
   dialogues:
   - skipPlayer1OnlyShowMCQ: 0
     player1Role: CEO
-    player1Text: " Disney+ launches at $6.99/month, signs 10M subscribers on day
-      one, and surpasses 50M within five months \u2014 including 8M in India by April
-      2020. Netflix has ~68M US/Canada and 99M international subscribers. "
-    player1Audio: {fileID: 8300000, guid: 5dfbf39b68f37ad4b9d9a41c91023606, type: 3}
+    player1Text: The broader media industry continues consolidating, with Paramount
+      and Skydance merging and other traditional studios exploring combinations,
+      reshaping the competitive landscape as legacy media companies seek scale to
+      compete with streaming-native giants.
+    player1Audio: {fileID: 8300000, guid: 9189346d9f91ecb4c9fe3470f041a2ab, type: 3}
     playerAnimEnable: {fileID: 1449454518}
     player1Animator: {fileID: 919132148323066604}
     skipPlayer2: 1
@@ -87464,7 +87662,7 @@ MonoBehaviour:
   CurrentTask: {fileID: 0}
   mcqJsonFile: {fileID: 4900000, guid: 0ea4883aa8ee60349a060a0940896a6c, type: 3}
   sceneToLoad: 
-  voiceObjectToActivate: {fileID: 1366878730}
+  voiceObjectToActivate: {fileID: 0}
   delayMCQClose: 1
   ShowColorOption: 0
   SceneLoad: 0
@@ -87589,3 +87787,5 @@ SceneRoots:
   - {fileID: 3262291064758880500}
   - {fileID: 2131761504}
   - {fileID: 1764746621}
+  - {fileID: 1095034596}
+  - {fileID: 2034571491}

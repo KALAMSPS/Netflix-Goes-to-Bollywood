@@ -810,6 +810,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5403480}
   m_CullTransparentMesh: 1
+--- !u!1001 &7037203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 101576706965691471, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_Name
+      value: Player setting
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 923.42426
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 667.8447
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.745707
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e94f9a76a13ed6a4fb9eb22615b3222a, type: 3}
 --- !u!1 &11896213
 GameObject:
   m_ObjectHideFlags: 0
@@ -9342,7 +9410,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 155848476}
+      - m_Target: {fileID: 1508450972}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -9362,7 +9430,7 @@ MonoBehaviour:
   CurrentTask: {fileID: 0}
   mcqJsonFile: {fileID: 4900000, guid: 0ea4883aa8ee60349a060a0940896a6c, type: 3}
   sceneToLoad: week-17
-  voiceObjectToActivate: {fileID: 0}
+  voiceObjectToActivate: {fileID: 426977290}
   delayMCQClose: 1
   ShowColorOption: 0
   SceneLoad: 1
@@ -20107,6 +20175,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426005971}
   m_CullTransparentMesh: 1
+--- !u!1001 &426977289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 814293425221767360, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_text
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7956185272306510482, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_Name
+      value: LEVEL_UP
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a9bced036b28ae44969f7b3824393dd, type: 3}
+--- !u!1 &426977290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7956185272306510482, guid: 4a9bced036b28ae44969f7b3824393dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 426977289}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &432382732
 GameObject:
   m_ObjectHideFlags: 0
@@ -46194,10 +46391,11 @@ MonoBehaviour:
   dialogues:
   - skipPlayer1OnlyShowMCQ: 0
     player1Role: CEO
-    player1Text: "Netflix's churn (~2%/month) beats Hulu/Disney+ (~5%) and CBS All
-      Access/HBO Now/Starz (~7\u20138%), but US growth may be approaching a ceiling
-      (10% of US TV viewing; forecast of 60\u201390M US subscribers). "
-    player1Audio: {fileID: 8300000, guid: 1c8e7a30170d1544b82404b47752e912, type: 3}
+    player1Text: ' Netflix works to build credibility with major advertising holding
+      companies and independent agencies, reporting more than a 150% increase in
+      upfront ad-sales commitments in its second year in the ad market, with co-CEO
+      Greg Peters closely involved in advertiser relationships. '
+    player1Audio: {fileID: 8300000, guid: bb3d03b5b1863ed429c3088b29faff5f, type: 3}
     playerAnimEnable: {fileID: 331811900}
     player1Animator: {fileID: 919132148323066604}
     skipPlayer2: 1
@@ -47713,7 +47911,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1366878731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47735,12 +47933,10 @@ MonoBehaviour:
   dialogues:
   - skipPlayer1OnlyShowMCQ: 0
     player1Role: CEO
-    player1Text: " By December 2021, Disney+ Hotstar and Amazon Prime Video still
-      undercut Netflix sharply on price. Netflix slashes India prices across all
-      tiers \u2014 Basic drops 60% (\u20B9499\u2192\u20B9199), mobile-only falls
-      to \u20B9149 \u2014 timed to land the same day Amazon Prime raises its India
-      rates. "
-    player1Audio: {fileID: 8300000, guid: c7ee7e00a9db2e846ab27c99b387fed4, type: 3}
+    player1Text: 'When Netflix launched its ad-supported tier (Session 8), it partnered
+      with Microsoft to build and operate the ad-tech platform rather than building
+      this capability entirely in-house, given the tight launch timeline. '
+    player1Audio: {fileID: 8300000, guid: e46da1ac8787bcc41a797cc1ecab04d9, type: 3}
     playerAnimEnable: {fileID: 743922014}
     player1Animator: {fileID: 919132148323066604}
     skipPlayer2: 1
@@ -61381,10 +61577,11 @@ MonoBehaviour:
   dialogues:
   - skipPlayer1OnlyShowMCQ: 0
     player1Role: CEO
-    player1Text: " Disney+ launches at $6.99/month, signs 10M subscribers on day
-      one, and surpasses 50M within five months \u2014 including 8M in India by April
-      2020. Netflix has ~68M US/Canada and 99M international subscribers. "
-    player1Audio: {fileID: 8300000, guid: 5dfbf39b68f37ad4b9d9a41c91023606, type: 3}
+    player1Text: ' Over time, Netflix builds and transitions to its own proprietary
+      advertising technology platform, reducing reliance on the original external
+      partnership as the ad business scales and Netflix''s specific needs become
+      clearer. '
+    player1Audio: {fileID: 8300000, guid: 07b64836c5f2e2d4caf1334dc0b259d8, type: 3}
     playerAnimEnable: {fileID: 1449454518}
     player1Animator: {fileID: 919132148323066604}
     skipPlayer2: 1
@@ -67370,7 +67567,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -65.573395}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2125493115
 MonoBehaviour:
@@ -87559,3 +87756,5 @@ SceneRoots:
   - {fileID: 3262291064758880500}
   - {fileID: 266001125}
   - {fileID: 728826476}
+  - {fileID: 7037203}
+  - {fileID: 426977289}

@@ -9342,7 +9342,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 155848476}
+      - m_Target: {fileID: 1508450972}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -9362,7 +9362,7 @@ MonoBehaviour:
   CurrentTask: {fileID: 0}
   mcqJsonFile: {fileID: 4900000, guid: 0ea4883aa8ee60349a060a0940896a6c, type: 3}
   sceneToLoad: week-20
-  voiceObjectToActivate: {fileID: 0}
+  voiceObjectToActivate: {fileID: 1704422172}
   delayMCQClose: 1
   ShowColorOption: 0
   SceneLoad: 1
@@ -45693,10 +45693,11 @@ MonoBehaviour:
   dialogues:
   - skipPlayer1OnlyShowMCQ: 0
     player1Role: CEO
-    player1Text: "Netflix's churn (~2%/month) beats Hulu/Disney+ (~5%) and CBS All
-      Access/HBO Now/Starz (~7\u20138%), but US growth may be approaching a ceiling
-      (10% of US TV viewing; forecast of 60\u201390M US subscribers). "
-    player1Audio: {fileID: 8300000, guid: 1c8e7a30170d1544b82404b47752e912, type: 3}
+    player1Text: "Beyond formal content quotas, various governments periodically
+      request Netflix remove or edit specific content deemed objectionable on political,
+      cultural, or religious grounds \u2014 creating recurring tension between local
+      legal compliance and creative/editorial independence. "
+    player1Audio: {fileID: 8300000, guid: 114608f124664324c82eb2d29d1a63de, type: 3}
     playerAnimEnable: {fileID: 331811900}
     player1Animator: {fileID: 919132148323066604}
     skipPlayer2: 1
@@ -47697,12 +47698,10 @@ MonoBehaviour:
   dialogues:
   - skipPlayer1OnlyShowMCQ: 0
     player1Role: CEO
-    player1Text: " By December 2021, Disney+ Hotstar and Amazon Prime Video still
-      undercut Netflix sharply on price. Netflix slashes India prices across all
-      tiers \u2014 Basic drops 60% (\u20B9499\u2192\u20B9199), mobile-only falls
-      to \u20B9149 \u2014 timed to land the same day Amazon Prime raises its India
-      rates. "
-    player1Audio: {fileID: 8300000, guid: c7ee7e00a9db2e846ab27c99b387fed4, type: 3}
+    player1Text: ' The European Union requires streaming services to ensure a minimum
+      percentage (typically around 30%) of their catalog consists of European content,
+      pushing Netflix to significantly expand European-produced originals to comply. '
+    player1Audio: {fileID: 8300000, guid: 3435c5cd2738e0946b59c0e501e0ac0f, type: 3}
     playerAnimEnable: {fileID: 743922014}
     player1Animator: {fileID: 919132148323066604}
     skipPlayer2: 1
@@ -55912,6 +55911,135 @@ RectTransform:
   m_AnchoredPosition: {x: -957.5856, y: -540.5298}
   m_SizeDelta: {x: 0.52001953, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1704422171
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 814293425221767360, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_text
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281369616426211060, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7956185272306510482, guid: 4a9bced036b28ae44969f7b3824393dd,
+        type: 3}
+      propertyPath: m_Name
+      value: LEVEL_UP
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a9bced036b28ae44969f7b3824393dd, type: 3}
+--- !u!1 &1704422172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7956185272306510482, guid: 4a9bced036b28ae44969f7b3824393dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1704422171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1709658395
 GameObject:
   m_ObjectHideFlags: 0
@@ -60143,6 +60271,74 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
+--- !u!1001 &1960682981
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 101576706965691471, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_Name
+      value: Player setting
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 923.42426
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 667.8447
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.745707
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567825863681521787, guid: e94f9a76a13ed6a4fb9eb22615b3222a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e94f9a76a13ed6a4fb9eb22615b3222a, type: 3}
 --- !u!1 &1963581024
 GameObject:
   m_ObjectHideFlags: 0
@@ -61411,10 +61607,10 @@ MonoBehaviour:
   dialogues:
   - skipPlayer1OnlyShowMCQ: 0
     player1Role: CEO
-    player1Text: " Disney+ launches at $6.99/month, signs 10M subscribers on day
-      one, and surpasses 50M within five months \u2014 including 8M in India by April
-      2020. Netflix has ~68M US/Canada and 99M international subscribers. "
-    player1Audio: {fileID: 8300000, guid: 5dfbf39b68f37ad4b9d9a41c91023606, type: 3}
+    player1Text: 'Following Russia''s full-scale invasion of Ukraine in February
+      2022, Netflix suspends its service in Russia, forgoing its Russian subscriber
+      base and revenue in response to the geopolitical crisis. '
+    player1Audio: {fileID: 8300000, guid: 29f19ac67f5946a45bd0f7af44b3844d, type: 3}
     playerAnimEnable: {fileID: 1449454518}
     player1Animator: {fileID: 919132148323066604}
     skipPlayer2: 1
@@ -87589,3 +87785,5 @@ SceneRoots:
   - {fileID: 3262291064758880500}
   - {fileID: 1845138285}
   - {fileID: 1311946854}
+  - {fileID: 1960682981}
+  - {fileID: 1704422171}
